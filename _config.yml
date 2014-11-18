@@ -1,12 +1,30 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
 name: "Digital Marketing Specialist"
 description: "A digial marketing specialist agency in WIltshire, England. "
+author:
+  name: Digital Marketing Specialist
+  email: tom@digitalmarketingspecialist.co.uk
 
-url: "http://localhost:4000"
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-paginate: 10
+include: ['.htaccess']
 
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown library
 markdown: rdiscount
-permalink: pretty
+#   extensions: []
+
 highlighter: pygments
 
 permalink: /:title/
+
+#url: "http://localhost:4000"

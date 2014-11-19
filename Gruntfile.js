@@ -252,12 +252,12 @@ module.exports = function (grunt) {
     },
     less: {
       files: {
-        expand: true, // set to true to enable options following options:
-        cwd: "<% yeoman.app %>", // all sources relative to this path
-        src: "/less/*.less", // source folder patterns to match, relative to cwd
-        dest: "/css/", // destination folder path prefix
-        ext: ".css", // replace any existing extension with this value in dest folder
-        flatten: true  // flatten folder structure to single level
+          expand: true,     // Enable dynamic expansion.
+          cwd: '<%= yeoman.app %>',      // Src matches are relative to this path.
+          src: ['/less/**/*.less'], // Actual pattern(s) to match.
+          dest: 'css/',   // Destination path prefix.
+          ext: '.css',   // Dest filepaths will have this extension.
+          extDot: 'first'   // Extensions in filenames begin after the first dot
       } ,
     }
   });

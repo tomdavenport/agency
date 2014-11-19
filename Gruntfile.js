@@ -35,7 +35,9 @@ module.exports = function (grunt) {
           '.jekyll/**/*.html',
           '{.tmp,<%= yeoman.app %>}/css/**/*.css',
           '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
-          '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
+          '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
+          // My addition
+          '{.tmp,<%= yeoman.app %>}/less/**/*.less'
         ]
       }
     },
@@ -247,6 +249,16 @@ module.exports = function (grunt) {
       dist: [
         'copy:dist'
       ]
+    },
+    less: {
+      files: {
+        expand: true, // set to true to enable options following options:
+        cwd: "<% yeoman.app %>", // all sources relative to this path
+        src: "/less/**/*.less", // source folder patterns to match, relative to cwd
+        dest: "/css/", // destination folder path prefix
+        ext: ".css", // replace any existing extension with this value in dest folder
+        flatten: true  // flatten folder structure to single level
+      } ,
     }
   });
 
@@ -286,6 +298,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean',
     // Jekyll cleans files from the target directory, so must run first
+    'less',
     'jekyll:dist',
     'concurrent:dist',
     'useminPrepare',

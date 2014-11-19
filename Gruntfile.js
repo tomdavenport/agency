@@ -254,7 +254,7 @@ module.exports = function (grunt) {
       files: {
         expand: true, // set to true to enable options following options:
         cwd: "<% yeoman.app %>", // all sources relative to this path
-        src: "/less/**/*.less", // source folder patterns to match, relative to cwd
+        src: "/less/*.less", // source folder patterns to match, relative to cwd
         dest: "/css/", // destination folder path prefix
         ext: ".css", // replace any existing extension with this value in dest folder
         flatten: true  // flatten folder structure to single level

@@ -17,12 +17,14 @@ module.exports = function (grunt) {
     // Configurable paths
     yeoman: {
       app: 'app',
-      dist: 'dist'
+      dist: 'dist',
+      fontawesome1: 'font-awesome-4.1.0',
+      fontawesome2: 'font-awesome-4.2.0'
     },
     watch: {
       jekyll: {
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,less}',
           '!<%= yeoman.app %>/_bower_components/**/*'
         ],
         tasks: ['jekyll:server']
@@ -250,16 +252,32 @@ module.exports = function (grunt) {
         'copy:dist'
       ]
     },
-    less: {
-      files: {
-          expand: true,     // Enable dynamic expansion.
-          cwd: '<%= yeoman.app %>',      // Src matches are relative to this path.
-          src: ['/less/**/*.less'], // Actual pattern(s) to match.
-          dest: 'css/',   // Destination path prefix.
-          ext: '.css',   // Dest filepaths will have this extension.
-          extDot: 'first'   // Extensions in filenames begin after the first dot
-      } ,
-    }
+    // less: {
+    //     app:{'<%= yeoman.app %>/css/agency.css': '<%= yeoman.app %>/less/*.less'
+    //   },
+    //   dist:{'<%= yeoman.app %>/css/agency.css': '<%= yeoman.app %>/less/*.less'
+    //   },
+      // dist:{
+      //   '<%= yeoman.fontawesome1 %>/css/fontawesome.css': '<%= yeoman.fontawesome1 %>/less/*.less'
+      // },
+      // fontawesome2:{
+      //   '<%= yeoman.fontawesome2 %>/css/fontawesome.css': '<%= yeoman.fontawesome2 %>/less/*.less'
+      // },
+
+      less: {
+            options: {
+
+                    // These paths are searched when trying to resolve @import in less file
+                    paths: [
+                        '<%= yeoman.app %>/less',
+                        '<%= yeoman.app %>/font-awesome*'
+                    ]
+                },
+                files: {
+                    '<%= yeoman.app %>css/agency.css': '<%= yeoman.app %>/less/*.less'
+
+            }
+        }
   });
 
   // Define Tasks

@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Tom Davenport -- Digital Marketing Specialist -- @tomdavenport
 
 # THANKS
 
-    <name>
+    Josie Davenport
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, jQuery, Modernizr, Grunt, Jekyll

@@ -1,16 +1,13 @@
 {% include header.html %}
 
-<div class="row">
+<div class="article row">
         <div class=" col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
             <h1>{{ page.title }}</h1>
-            <h6>by Tom Davenport on {{ page.date | date: "%b %d, %Y" }} - Get free updates of new posts <a href="#" title="Digital Marketing Newsletter">here</a>.</h6>
+            <h6>by Tom Davenport on {{ page.date | date: "%b %d, %Y" }}, <a href="{{page.url}}#disqus_thread"></a> - Get free updates of new posts <a href="#" title="Digital Marketing Newsletter">here</a>.</h6>
 
             {{ content }}
 
-            <p>You are reading an article by <a href="/" title="Home">{{ site.name }}</a>:</p>
-            <!-- /.col-md-8 -->
-
-            <!-- Shareaholid -->
+            <!-- Shareaholis -->
             <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='12432381'></div>
 
             {% include post-loop.html %}

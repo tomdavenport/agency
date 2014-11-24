@@ -1,0 +1,214 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   'less' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ '-', null ]
+5 verbose cache add name=undefined spec="-" args=["-",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '-',
+6 verbose parsed url   path: '-',
+6 verbose parsed url   href: '-' }
+7 verbose cache add [ 'less', null ]
+8 verbose cache add name=undefined spec="less" args=["less",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'less',
+9 verbose parsed url   path: 'less',
+9 verbose parsed url   href: 'less' }
+10 silly lockFile 3bc15c8a- -
+11 verbose lock - /Users/tom/.npm/3bc15c8a-.lock
+12 silly lockFile 0b439cf4-less less
+13 verbose lock less /Users/tom/.npm/0b439cf4-less.lock
+14 silly lockFile 3bc15c8a- -
+15 silly lockFile 3bc15c8a- -
+16 verbose addNamed [ '-', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile c75fe0d4- -@
+19 verbose lock -@ /Users/tom/.npm/c75fe0d4-.lock
+20 silly lockFile 0b439cf4-less less
+21 silly lockFile 0b439cf4-less less
+22 verbose addNamed [ 'less', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile e13833ab-less less@
+25 verbose lock less@ /Users/tom/.npm/e13833ab-less.lock
+26 silly addNameRange { name: '-', range: '*', hasData: false }
+27 silly addNameRange { name: 'less', range: '*', hasData: false }
+28 verbose request where is /-
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 09e7cc10a74b036d
+31 verbose url raw /-
+32 verbose url resolving [ 'https://registry.npmjs.org/', './-' ]
+33 verbose url resolved https://registry.npmjs.org/-
+34 verbose request where is https://registry.npmjs.org/-
+35 info trying registry request attempt 1 at 20:16:30
+36 http GET https://registry.npmjs.org/-
+37 verbose request where is /less
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /less
+40 verbose url resolving [ 'https://registry.npmjs.org/', './less' ]
+41 verbose url resolved https://registry.npmjs.org/less
+42 verbose request where is https://registry.npmjs.org/less
+43 info trying registry request attempt 1 at 20:16:30
+44 verbose etag "BLU9HR7A3R3VVV5P5Y7S4UCT2"
+45 http GET https://registry.npmjs.org/less
+46 http 200 https://registry.npmjs.org/less
+47 silly registry.get cb [ 200,
+47 silly registry.get   { date: 'Mon, 24 Nov 2014 20:16:31 GMT',
+47 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 silly registry.get     etag: '"98JMIOGY7QNC4EHQTW9OCAD5"',
+47 silly registry.get     'content-type': 'application/json',
+47 silly registry.get     'cache-control': 'max-age=60',
+47 silly registry.get     'content-length': '75748',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '31',
+47 silly registry.get     'x-served-by': 'cache-lcy1133-LCY',
+47 silly registry.get     'x-cache': 'HIT',
+47 silly registry.get     'x-cache-hits': '1',
+47 silly registry.get     'x-timer': 'S1416860191.161525,VS0,VE0',
+47 silly registry.get     vary: 'Accept',
+47 silly registry.get     'keep-alive': 'timeout=10, max=50',
+47 silly registry.get     connection: 'Keep-Alive' } ]
+48 silly addNameRange number 2 { name: 'less', range: '*', hasData: true }
+49 silly addNameRange versions [ 'less',
+49 silly addNameRange   [ '1.0.10',
+49 silly addNameRange     '1.0.11',
+49 silly addNameRange     '1.0.14',
+49 silly addNameRange     '1.0.18',
+49 silly addNameRange     '1.0.19',
+49 silly addNameRange     '1.0.21',
+49 silly addNameRange     '1.0.32',
+49 silly addNameRange     '1.0.36',
+49 silly addNameRange     '1.0.5',
+49 silly addNameRange     '1.0.40',
+49 silly addNameRange     '1.0.41',
+49 silly addNameRange     '1.0.44',
+49 silly addNameRange     '1.1.0',
+49 silly addNameRange     '1.1.1',
+49 silly addNameRange     '1.1.2',
+49 silly addNameRange     '1.1.4',
+49 silly addNameRange     '1.1.5',
+49 silly addNameRange     '1.1.6',
+49 silly addNameRange     '1.2.0',
+49 silly addNameRange     '1.2.1',
+49 silly addNameRange     '1.2.2',
+49 silly addNameRange     '1.3.0',
+49 silly addNameRange     '1.3.1',
+49 silly addNameRange     '1.3.2',
+49 silly addNameRange     '1.3.3',
+49 silly addNameRange     '1.4.0-b1',
+49 silly addNameRange     '1.4.0-b2',
+49 silly addNameRange     '1.4.0-b3',
+49 silly addNameRange     '1.4.0-b4',
+49 silly addNameRange     '1.4.0',
+49 silly addNameRange     '1.4.1',
+49 silly addNameRange     '1.4.2',
+49 silly addNameRange     '1.5.0-b1',
+49 silly addNameRange     '1.5.0-b2',
+49 silly addNameRange     '1.5.0-b3',
+49 silly addNameRange     '1.5.0-b4',
+49 silly addNameRange     '1.5.0',
+49 silly addNameRange     '1.5.1',
+49 silly addNameRange     '1.6.0',
+49 silly addNameRange     '1.6.1',
+49 silly addNameRange     '1.6.2',
+49 silly addNameRange     '1.6.3',
+49 silly addNameRange     '1.7.0',
+49 silly addNameRange     '1.7.1',
+49 silly addNameRange     '1.7.3',
+49 silly addNameRange     '1.7.4',
+49 silly addNameRange     '1.7.5',
+49 silly addNameRange     '2.0.0-b1',
+49 silly addNameRange     '2.0.0-b2',
+49 silly addNameRange     '2.0.0-b3',
+49 silly addNameRange     '2.0.0',
+49 silly addNameRange     '2.1.0' ] ]
+50 verbose addNamed [ 'less', '2.1.0' ]
+51 verbose addNamed [ '2.1.0', '2.1.0' ]
+52 silly lockFile 44e20066-less-2-1-0 less@2.1.0
+53 verbose lock less@2.1.0 /Users/tom/.npm/44e20066-less-2-1-0.lock
+54 silly lockFile c7000499-ry-npmjs-org-less-less-2-1-0-tgz https://registry.npmjs.org/less/-/less-2.1.0.tgz
+55 verbose lock https://registry.npmjs.org/less/-/less-2.1.0.tgz /Users/tom/.npm/c7000499-ry-npmjs-org-less-less-2-1-0-tgz.lock
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/less/-/less-2.1.0.tgz',
+56 verbose addRemoteTarball   '535b37390b21d904ee1c4c78d4c676b9f3c8fb7e' ]
+57 info retry fetch attempt 1 at 20:16:31
+58 verbose fetch to= /var/folders/lk/8czpj80d08xg9srv434xy7pc0000gr/T/npm-5909-VEIxyFO3/registry.npmjs.org/less/-/less-2.1.0.tgz
+59 http GET https://registry.npmjs.org/less/-/less-2.1.0.tgz
+60 http 404 https://registry.npmjs.org/-
+61 verbose headers { date: 'Mon, 24 Nov 2014 20:16:31 GMT',
+61 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+61 verbose headers   'content-type': 'application/json',
+61 verbose headers   'cache-control': 'max-age=0',
+61 verbose headers   'content-length': '52',
+61 verbose headers   'accept-ranges': 'bytes',
+61 verbose headers   via: '1.1 varnish',
+61 verbose headers   age: '0',
+61 verbose headers   'x-served-by': 'cache-lcy1122-LCY',
+61 verbose headers   'x-cache': 'MISS',
+61 verbose headers   'x-cache-hits': '0',
+61 verbose headers   'x-timer': 'S1416860191.150249,VS0,VE626',
+61 verbose headers   'keep-alive': 'timeout=10, max=50',
+61 verbose headers   connection: 'Keep-Alive' }
+62 silly registry.get cb [ 404,
+62 silly registry.get   { date: 'Mon, 24 Nov 2014 20:16:31 GMT',
+62 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+62 silly registry.get     'content-type': 'application/json',
+62 silly registry.get     'cache-control': 'max-age=0',
+62 silly registry.get     'content-length': '52',
+62 silly registry.get     'accept-ranges': 'bytes',
+62 silly registry.get     via: '1.1 varnish',
+62 silly registry.get     age: '0',
+62 silly registry.get     'x-served-by': 'cache-lcy1122-LCY',
+62 silly registry.get     'x-cache': 'MISS',
+62 silly registry.get     'x-cache-hits': '0',
+62 silly registry.get     'x-timer': 'S1416860191.150249,VS0,VE626',
+62 silly registry.get     'keep-alive': 'timeout=10, max=50',
+62 silly registry.get     connection: 'Keep-Alive' } ]
+63 silly lockFile c75fe0d4- -@
+64 silly lockFile c75fe0d4- -@
+65 http 200 https://registry.npmjs.org/less/-/less-2.1.0.tgz
+66 silly lockFile c7000499-ry-npmjs-org-less-less-2-1-0-tgz https://registry.npmjs.org/less/-/less-2.1.0.tgz
+67 silly lockFile c7000499-ry-npmjs-org-less-less-2-1-0-tgz https://registry.npmjs.org/less/-/less-2.1.0.tgz
+68 silly lockFile 44e20066-less-2-1-0 less@2.1.0
+69 silly lockFile 44e20066-less-2-1-0 less@2.1.0
+70 silly lockFile e13833ab-less less@
+71 silly lockFile e13833ab-less less@
+72 error Error: not_found document not found: -
+72 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+72 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+72 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+72 error     at Request.emit (events.js:98:17)
+72 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+72 error     at Request.emit (events.js:117:20)
+72 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+72 error     at IncomingMessage.emit (events.js:117:20)
+72 error     at _stream_readable.js:943:16
+72 error     at process._tickCallback (node.js:419:13)
+73 error If you need help, you may report this *entire* log,
+73 error including the npm and node versions, at:
+73 error     <http://github.com/npm/npm/issues>
+74 error System Darwin 14.0.0
+75 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-" "less"
+76 error cwd /Users/tom/Dev/agency
+77 error node -v v0.10.33
+78 error npm -v 1.4.28
+79 verbose exit [ 1, true ]

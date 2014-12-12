@@ -8,8 +8,8 @@
 
 	/*  MySQL database connection credentials (please place values between the apostrophes) */
 	$dbHost = 'localhost'; //MySQL Hostname
-	$dbUser = 'tom'; //MySQL Username
-	$dbPass = 'megaman'; //MySQL Password
+	$dbUser = 'sendy'; //MySQL Username
+	$dbPass = 'SendyJNyKY'; //MySQL Password
 	$dbName = 'sendy'; //MySQL Database Name
 
 

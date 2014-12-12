@@ -4,7 +4,7 @@
 	//----------------------------------------------------------------------------------//
 
 	/*  Set the URL to your Sendy installation (without the trailing slash) */
-	define('APP_PATH', 'http://your_sendy_installation_url');
+	define('APP_PATH', 'http://www.digitalmarketingspecialist.co.uk/sendy');
 
 	/*  MySQL database connection credentials (please place values between the apostrophes) */
 	$dbHost = 'localhost'; //MySQL Hostname

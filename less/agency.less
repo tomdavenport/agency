@@ -49,6 +49,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+h2 {
+	a {
+	color: @gray-darkest;
+}
+}
+
 .img-centered {
 	margin: 0 auto;
 }
@@ -219,7 +225,7 @@ header {
 // Global Section Styles
 
 section {
-    padding: 100px 0;
+    padding: 70px 0;
     h2.section-heading {
 		font-size: 40px;
 		margin-top: 0;
@@ -319,6 +325,62 @@ section {
             margin: 0 0 30px;
         }
     }
+}
+
+// Blog
+
+article {
+	font-color:#323232;
+	p {
+		font-size: 18px;
+		line-height: 1.5em;
+		margin-bottom: 1em;
+	}
+	h1 {
+		font-size:44px;
+	}
+	h2, h3, h4 {
+		line-height: 1.7em;
+	}
+	h5 {
+		color: @gray;
+		font-weight: 200;
+	}
+	p,h1,h2,h3,h4,h5,h6 {
+		text-transform: none;
+	}
+}
+
+
+.byline {
+	margin-bottom: 2em;
+}
+
+.post-loop {
+	margin-top: 30px;
+	list-style-type: none;
+	ul{
+		list-style-type: none;
+	}
+}
+
+.post-preview {
+	h2 {
+		margin-bottom: 5px;
+		margin-top: 1em;
+		line-height: 1em;
+	}
+	h5.byline {
+		margin-bottom: 10px;
+		line-height: 1em;
+	}
+	p {
+		margin-bottom: 0.3em;
+	}
+}
+
+p#read-more {
+	font-size: 14px;
 }
 
 // Timeline

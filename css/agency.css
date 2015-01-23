@@ -414,6 +414,7 @@ article h6 {
 .post-preview h5.byline {
   margin-bottom: 10px;
   line-height: 1em;
+  border-bottom: none;
 }
 .post-preview p {
   margin-bottom: 0.3em;

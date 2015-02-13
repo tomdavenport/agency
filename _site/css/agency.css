@@ -807,9 +807,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #f5b450;
 }
-body {
-  background: black;
-}
 .fa-arrow-down {
   padding-top: 40px;
   color: #f7f7f7;

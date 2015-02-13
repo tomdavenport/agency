@@ -245,7 +245,7 @@ section {
 
 @media(min-width:768px) {
 	section {
-		padding: 150px 0;
+		padding: 100px 0;
 	}
 }
 
@@ -803,3 +803,34 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: @brand-primary;
 }
+
+// Custom stuff
+
+@include keyframes(bounce) {
+	0%, 20%, 50%, 80%, 100% {
+    @include transform(translateY(0));
+  }
+	40% {
+    @include transform(translateY(-30px));
+  }
+	60% {
+    @include transform(translateY(-15px));
+  }
+}
+
+
+body {
+  background: black;
+}
+
+// Custom
+
+.fa-arrow-down {
+	padding-top: 40px;
+	color: @gray-lighter;
+}
+
+	.bounce {
+ -webkit-transition: 3s;
+ -o-transition: 3s;
+ transition: 3s;

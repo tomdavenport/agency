@@ -62,6 +62,7 @@ h2 a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: #222222;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -71,6 +72,7 @@ h2 a {
   color: #ffffff;
   background-color: #f29f20;
   border-color: #f29b16;
+  color: #222222;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -109,6 +111,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+  color: #222222;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -118,6 +121,7 @@ fieldset[disabled] .btn-primary.active {
   color: #ffffff;
   background-color: #f29f20;
   border-color: #f29b16;
+  color: #222222;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -295,7 +299,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 .service-heading {
@@ -719,6 +723,7 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
   outline: none;
+  color: #222222;
 }
 .portfolio-modal .modal-content {
   border-radius: 0;
@@ -801,4 +806,11 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #f5b450;
+}
+body {
+  background: black;
+}
+.fa-arrow-down {
+  padding-top: 40px;
+  color: #f7f7f7;
 }

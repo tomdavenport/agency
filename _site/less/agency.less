@@ -73,6 +73,7 @@ h2 {
 	.button-variant(white; @brand-primary; @brand-primary);
 	.heading-font;
 	font-weight: 700;
+	color: @gray-darkest;
 }
 
 .btn-xl {
@@ -82,6 +83,7 @@ h2 {
 	border-radius: 3px;
 	font-size: 18px;
 	padding: 20px 40px;
+	color: #222222;
 }
 
 // Custom Navigation Bar
@@ -243,7 +245,7 @@ section {
 
 @media(min-width:768px) {
 	section {
-		padding: 150px 0;
+		padding: 100px 0;
 	}
 }
 
@@ -707,6 +709,7 @@ ul.social-buttons {
 .btn.active,
 .btn:active:focus {
 	outline: none;
+	color: #222222;
 }
 
 .portfolio-modal {
@@ -799,4 +802,16 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @brand-primary;
+}
+
+body {
+  background: black;
+}
+
+// Custom
+
+.fa-arrow-down {
+	padding-top: 40px;
+	color: @gray-lighter;
+
 }

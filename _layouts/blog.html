@@ -7,6 +7,8 @@
         <h1>{{ page.title }}</h1>
         <h5 class="byline">by Tom Davenport on {{ page.date | date: "%b %d, %Y" }}, <a href="{{page.url}}#disqus_thread"></a> - Get free updates of new posts <a href="#" title="Digital Marketing Newsletter">here</a>.</h5>
         {{ content }}
+    <!-- Active Campaign signup -->
+<!--     {% include leads-form.html %} -->
 
     {% include post-loop.html %}
     </article>

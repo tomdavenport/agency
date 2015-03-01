@@ -6,7 +6,7 @@ tags: []
 
 ---
 
-Markdown is an easy way to write for the web. It's simple: you write in normal english, and your web team can put it straight online as proper web code, or HTML. Easy!
+Markdown is an easy way to write for the web. It's simple: you write in normal English, and your web team can put it straight online as proper web code, or HTML. Easy!
 
 You'll need to know how to do a heading and sub-heading if you're writing for SEO at all. And you might want to know how to do bold, italics and links. If you learn one thing, make it headlines.
 
@@ -16,7 +16,7 @@ Headlines (or **headings**) are as easy as putting a hash sign (`#`) at the star
 
 `# A simple guide to Markdown`
 
-Pretty simple, right? This keeps it perfectly readable, and makes the line stand out as a heading at the top of the page. If you're writing for SEO, this is an improtant place to put your main keyword for the page.
+Pretty simple, right? This keeps it perfectly readable, and makes the line stand out as a heading at the top of the page. If you're writing for SEO, this is an important place to put your main keyword for the page.
 
 If you write more than 200 or 300 words, you might want to start breaking up the text with sub headings. Here's how to do a sub-heading in Markdown:
 
@@ -30,19 +30,19 @@ Let's move on to another basic:
 
 ## How to write in Bold and Italics in Markdown
 
-To write in *italics*, just wrap a word or sentance in one star, like this.
+To write in *italics*, just wrap a word or sentence in one star, like this.
 
-`To write in *italics*, just wrap a word or sentance in one star, like this.`
+`To write in *italics*, just wrap a word or sentence in one star, like this.`
 
-To write in **bold**, just wrap a word or sentance in two stars, like this.
+To write in **bold**, just wrap a word or sentence in two stars, like this.
 
-`To write in **bold**, just wrap a word or sentance in two stars.`
+`To write in **bold**, just wrap a word or sentence in two stars.`
 
 You can do bold *and* italics on the same word with three stars, but that would look terrible. Don't do that.
 
 ## How to write lists in Markdown
 
-Lists are so easy. Just write a dash at the start of each line, or a number at the start of each line for a numbered list. They'll come out as proper bulleted or numbered lists when your content appears online.
+Lists are so easy. Just write a dash at the start of each line, or a number at the start of each line for a numbered list. They'll come out as proper bullet or numbered lists when your content appears online.
 
 `- Bulleted list`
 
@@ -68,14 +68,14 @@ Then we put the web address in brackets straight after the closing square bracke
 
 Some people mix up which way the brackets go. I remember it like this: the square brackets look like a picture frame. I'm framing the text as a link, the following with the web address in brackets as an afterthought.
 
-You can do this with a link mid-sentance, like this link to [the guy that invented Markdown](http://daringfireball.net/projects/markdown/ "About Markdown"), or on its own line as above. They all work the same.
+You can do this with a link mid-sentence, like this link to [the guy that invented Markdown](http://daringfireball.net/projects/markdown/ "About Markdown"), or on its own line as above. They all work the same.
 
 ### Adding a title to your Markdown links
 If you're writing for SEO, I recommend one extra tweak to your links.
 
 You know how hovering over a link for a few seconds usually shows a little text window to say what the title of the next page is? Try it on the link above if you want to see an example. This is called a **title**, and it's good practice to include this on every link you write. It's good for the user, and good for SEO.
 
-To add a title to your link in Markdown, put it after your link in quotemarks, but stay inside the brackets:
+To add a title to your link in Markdown, put it after your link in quote-marks, but stay inside the brackets:
 
 `[Tom Davenport's Twitter Page](http://www.tomdavenport.co.uk "Tom Davenport on Twitter")`
 

@@ -12,3 +12,15 @@ highlighter: pygments
 # RSS info
 author: Tom Davenport
 copyright: Digital Marketing Specialist Ltd
+
+# Sitemap
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/rss.xml"
+        - "/privacy-policy.html
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

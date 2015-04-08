@@ -8,3 +8,7 @@ paginate: 10
 markdown: rdiscount
 permalink: /:title/
 highlighter: pygments
+
+# RSS info
+author: Tom Davenport
+copyright: Digital Marketing Specialist Ltd

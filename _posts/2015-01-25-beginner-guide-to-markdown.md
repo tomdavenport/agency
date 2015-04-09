@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: A simple beginner's guide to Markdown
+title: A beginner's guide to writing Markdown
 categories: []
 tags: []
 

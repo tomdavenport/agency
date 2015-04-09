@@ -1,7 +1,8 @@
 name: "Digital Marketing Specialist"
 description: "A digial marketing specialist agency in Wiltshire, England."
 
-url: "http://localhost:4000"
+url: "http://www.digitalmarketingspecialist.co.uk"
+#url: "http://localhost:4000"
 
 paginate: 10
 
@@ -15,12 +16,12 @@ copyright: Digital Marketing Specialist Ltd
 
 # Sitemap
 
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/rss.xml"
-        - "/privacy-policy.html
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
+#sitemap:
+#    file: "/sitemap.xml"
+#    exclude:
+#		- "/rss.xml"
+#		- "/privacy-policy.html
+#    include_posts:
+#        - "/index.html"
+#    change_frequency_name: "change_frequency"
+#    priority_name: "priority"

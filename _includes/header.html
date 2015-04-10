@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -9,7 +6,7 @@
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="">
 
-    <title>{{ post.title }}</title>
+    <title>{{ page.title }}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -30,6 +27,31 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="{{ page.title }}">
+<meta itemprop="description" content="{{page.description}}">
+<meta itemprop="image" content="{{site.url}}{{page.image}}">
+
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{site.twitter}}">
+<meta name="twitter:creator" content="@{{site.twitter}}">
+<meta name="twitter:title" content="{{page.name}}">
+<meta name="twitter:description" content="{{page.description}}">
+<meta name="twitter:image" content="{{site.url}}{{page.image}}">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+
+<!-- Open Graph data -->
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{site.url}}{{page.image}}" />
+<meta property="og:description" content="{{page.description}}" />
+<meta property="og:site_name" content="{{ site.name }}" />
+<meta property="article:published_time" content="{{ page.date }}" />
+<meta property="article:tag" content="{{ page.tags }}" />
+
     <!-- Hotjar -->
     <script>
     (function(f, b, g) {
@@ -77,8 +99,6 @@
         }
     })(window, document, window.XMLHttpRequest);
     </script>
-    <!-- sumome -->
-    <script src="//load.sumome.com/" data-sumo-site-id="7803bec51b1aff8476f4a21f9084a0181f0259c0f7ac41fed7975ca6c9d69937" async></script>
 
 </head>
 

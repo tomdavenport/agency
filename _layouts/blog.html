@@ -374,10 +374,10 @@
 
 <!-- Twitter card -->
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@{{site.twitter}}" />
-<meta name="twitter:title" content="{{page.title}}" />
-<meta name="twitter:description" content="{{page.description}}" />
-<meta name="twitter:image" content="{{page.image}}" />
-<meta name="twitter:url" content="{{page.url}}" />
+<meta name="twitter:site" content="@{{ site.twitter }}" />
+<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:description" content="{{ page.description }}" />
+<meta name="twitter:image" content="{{ page.image }}" />
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 
 {% include footer.html %}

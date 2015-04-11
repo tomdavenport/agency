@@ -418,6 +418,10 @@ article blockquote {
   border-left-width: 10px;
   border-left-color: #f7f7f7;
 }
+article img {
+  display: block;
+  margin: 0 auto;
+}
 .byline {
   margin-bottom: 2em;
 }

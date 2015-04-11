@@ -2,6 +2,7 @@
 layout: blog
 title: How to prepare and optimise images for SEO
 description: Two tips for getting images right the first time around, saving you plenty of effort later and helping boost your SEO.
+metaimage: /img/meta/prepare-image-seo.jpg
 categories: []
 tags: []
 

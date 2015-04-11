@@ -381,9 +381,11 @@ article p {
 }
 article h1 {
   font-size: 44px;
+  /*	text-align: center;*/
 }
 article h2 {
-  line-height: 2em;
+  line-height: 1.2em;
+  margin-bottom: 0.8em;
 }
 article h3,
 article h4 {
@@ -429,6 +431,7 @@ article img {
 }
 .byline {
   margin-bottom: 2.5em;
+  /*	text-align: center;*/
 }
 .post-loop {
   margin-top: 30px;

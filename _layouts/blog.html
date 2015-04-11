@@ -10,10 +10,13 @@
         <h1>{{ page.title }}</h1>
         <h5 class="byline">by Tom Davenport on {{ page.date | date: "%b %d, %Y" }}. <a href="{{page.url}}#disqus_thread"></a> - Get free updates of new posts <a href="/signup" title="Digital Marketing Newsletter">here</a>.</h5>
         {{ content }}
+
 <!-- Email signup box -->
 {% include blog-updates.html %}
+
 <!-- Post loop -->
     {% include post-loop.html %}
+
     </article>
     <div class=" col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 spacer">
 

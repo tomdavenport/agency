@@ -6,6 +6,7 @@ body {
 }
 .text-muted {
   color: #a6b4ba;
+  margin-bottom: 2em;
 }
 .text-primary {
   color: #f5b450;
@@ -149,6 +150,9 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
   color: #f5b450;
   background-color: #ffffff;
+}
+.btn-service {
+  margin-top: 0px;
 }
 .navbar-default {
   background-color: #222222;

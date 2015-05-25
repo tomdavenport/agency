@@ -1,18 +1,19 @@
 ---
 title: Improve Conversion Rate
 description: Worried your conversion rate is low? Turn clicks into conversions with our simple consulting solution to improve your conversion rate.
-layout: blog
+metaimage: improve-website-conversions.jpg
+layout: service
 
 ---
 
-## The problem
+## The problem with your sales
 
 You’re a business manager or marketer. You’re trying to **grow a business** by improving the conversion rate of your website.
 
-But you’re worried your conversion rate is pretty low, because you are:
+But you’re worried your conversion rate is pretty low. Maybe you are:
 
 - Seeing a drop in conversion rates due to higher competition
-- Getting plenty of traffic, but something is really flawed in the chain somewhere.
+- Getting plenty of traffic, but something is really flawed in the chain somewhere
 - Losing money on paid advertising, especially when you’re going for volume
 - Haven’t made a single sale in the past few days, weeks or months!
 
@@ -24,23 +25,23 @@ What you need is to know what would improve your website and conversion rate. A 
 
 ## Translate those clicks into conversions
 
-Imagine looking around for ideas to increase your conversions. 
+Imagine looking around for ideas to increase your conversions.
 
-*“What are some steps I can take to raise my conversion rate? What could I be doing better?”*
+> *“What are some steps I can take to raise my conversion rate? What could I be doing better?”*
 
- Then *poof*, a list of great ideas land in your lap with things you can do to start gaining traction. 
+ Then *poof*, a list of great ideas land in your lap with things you can do to start gaining traction.
 
-*”I was actually looking for something like this!”*
+>*”I was actually looking for something like this!”*
 
 The thing is, they’re actually great ideas. The kind you would have never thought of. These ideas form a strategy to help you build your online store. You make more money as a result of applying these lessons.
 
 The US average conversion rate is 2.4-3%. Are you average? *Below* average? It doesn’t matter, because with this list, you know what steps you can take to raise your conversion rate.
 
-The higher your conversion rate, the faster your business will grow. 
+The higher your conversion rate, the faster your business will grow.
 
 Imagine if your conversions got up to 8-10%. You can get *very* aggressive and competitive with advertising at these rates.
 
-## The solution
+## The easy way to improve your conversion rate
 
 The fact is, you’ve got a decent amount of visitors, and it’s time to optimise.
 
@@ -58,9 +59,15 @@ The result is a plan for improvement is presented in a report which identifies e
 
 Every potential leak point and the value being lost is clear and proven, and as a team we make a plan of action that means your sales, average transaction value and profitability will grow.
 
-## How to apply
+Can you afford to keep losing business, or are you ready to grow?
 
-[Apply to improve your conversion rate](/#contact) and we'll start with a **free consultation** to get started.
+We have **limited space** and only work with select clients who are capable of dramatic growth.
+
+<a href="/#contact" title="Contact us now" class="btn btn-xl btn-service">Get a free consultation</a>
+
+We'll start with a **free phone consultation** to answer your questions, explain the process and see if we're a good match to get started.
+
+If we're a good match, our service comes with a cast-iron guarantee of 5x return on your investment.
 
 ## Frequently asked questions
 
@@ -79,3 +86,5 @@ That’s why I run a health check on your data before starting. You might be dou
 ### What if the resulting actions are too expensive to implement?
 
 Those actions don’t even make it to the list. If I find a change which could make another £10k in 3 months, but it costs £15k (unlikely, but let’s go with it), this doesn’t even make it to the list. I’ve worked with developers at every size website imaginable, and a confident developer myself, so I’ve got a great understanding of the approximate cost of any action. To get on my list, it has to offer a substantial return on investment.
+
+<a href="/#contact" title="Contact us now" class="btn btn-xl btn-service">Get a free consultation</a>

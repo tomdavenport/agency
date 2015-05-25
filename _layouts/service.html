@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/Article">
+
+{% include header.html %}
+
+{% include nav.html %}
+
+<div class="article row">
+    <article class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <h1>{{ page.title }}</h1>
+        <!-- Image -->
+        <!-- <img src="{{ site.url }}{{ page.image }}" alt="{{ page.alt }}"> -->
+        {{ content }}
+    </article>
+    <!-- .col -->
+</div>
+<!-- .row -->
+</div>
+<!-- .container article -->
+
+{% include footer.html %}

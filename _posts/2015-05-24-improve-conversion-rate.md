@@ -1,5 +1,5 @@
 ---
-title: Improve Conversion Rate
+title: Improve Your Conversion Rate
 description: Worried your conversion rate is low? Turn clicks into conversions with our simple consulting solution to improve your conversion rate.
 metaimage: improve-website-conversions.jpg
 layout: service
@@ -55,7 +55,7 @@ That way, you can start with the most cost-effective and affordable actions, and
 
 A deep Google Analytics audit and health check, while setting up extra research tools that show you how real people use your website. 
 
-The result is a plan for improvement is presented in a report which identifies each problem, offers a practical solution, and is packed with insights about how your visitors really behave — and what makes them stay!
+The resulting plan for improvement is presented in a report which identifies each problem, offers practical solutions, and is packed with insights about how your visitors really behave — and what makes them stay!
 
 Every potential leak point and the value being lost is clear and proven, and as a team we make a plan of action that means your sales, average transaction value and profitability will grow.
 
@@ -67,7 +67,7 @@ We have **limited space** and only work with select clients who are capable of d
 
 We'll start with a **free phone consultation** to answer your questions, explain the process and see if we're a good match to get started.
 
-If we're a good match, our service comes with a cast-iron guarantee of 5x return on your investment.
+If we're a good match, our service comes with a **cast-iron guarantee** that you'll make a minimum of **5x return on your investment** in your first year - or your money back.
 
 ## Frequently asked questions
 

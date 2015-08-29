@@ -4,3 +4,15 @@ ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^(dev|dev)\. [NC]
+
+Redirect 302 /about/ http://www.digitalmarketingspecialist.co.uk/
+
+Redirect 301 /test.html http://www.digitalmarketingspecialist.co.uk/
+
+Redirect 301 /testing-my-new-blog/ http://www.digitalmarketingspecialist.co.uk/articles/
+
+Redirect 301 /privacy-policy/privacy-policy.html http://www.digitalmarketingspecialist.co.uk/privacy-policy/
+
+Redirect 301 /articles.html http://www.digitalmarketingspecialist.co.uk/articles/

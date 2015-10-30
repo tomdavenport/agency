@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Article">
-
-{% include header.html %}
-
+{% include header.html %} 
 {% include nav.html %}
+<div class="block">
+    <div class="article row">
+        <article class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <h1>{{ page.title }}</h1>
+            <h5 class="byline">by Tom Davenport on {{ page.date | date: "%b %d, %Y" }}. <a href="{{page.url}}#disqus_thread"></a> - Get free updates of new posts <a href="/signup" title="Digital Marketing Newsletter">here</a>.</h5>
+            <!-- Image -->
+            <!-- <img src="{{ site.url }}{{ page.image }}" alt="{{ page.alt }}"> -->
+            {{ content }}
+            <!-- Email signup box -->
+            <div class="m-y">{% include blog-updates.html %}</div>
+            <!-- Post loop -->
+            {% include post-loop.html %}
+        </article>
+        <div class=" col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 spacer">
+            <div id="disqus_thread">
+                <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'digitalmarketingspecialistuk'; // required: replace example with your forum shortname
 
-<div class="article row">
-    <article class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-        <h1>{{ page.title }}</h1>
-        <h5 class="byline">by Tom Davenport on {{ page.date | date: "%b %d, %Y" }}. <a href="{{page.url}}#disqus_thread"></a> - Get free updates of new posts <a href="/signup" title="Digital Marketing Newsletter">here</a>.</h5>
-        <!-- Image -->
-        <!-- <img src="{{ site.url }}{{ page.image }}" alt="{{ page.alt }}"> -->
-        {{ content }}
-<!-- Email signup box -->
-{% include blog-updates.html %}
-<!-- Post loop -->
-    {% include post-loop.html %}
-    </article>
-    <div class=" col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 spacer">
-
-        <div id="disqus_thread">
-            <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'digitalmarketingspecialistuk'; // required: replace example with your forum shortname
-
-            /* * * DON'T EDIT BELOW LINE * * */
-            (function() {
-                var dsq = document.createElement('script');
-                dsq.type = 'text/javascript';
-                dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-            </noscript>
+                /* * * DON'T EDIT BELOW LINE * * */
+                (function() {
+                    var dsq = document.createElement('script');
+                    dsq.type = 'text/javascript';
+                    dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+                </noscript>
+            </div>
+            <!-- .disqus -->
         </div>
-        <!-- .disqus -->
+        <!-- .col -->
     </div>
-    <!-- .col -->
-</div>
-<!-- .row -->
+    <!-- .row -->
 </div>
 <!-- .container article -->
-
 {% include footer.html %}

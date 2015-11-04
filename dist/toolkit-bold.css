@@ -360,8 +360,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: "freight-display-pro", Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
   line-height: 1.2;
   color: inherit;
 }

@@ -35,6 +35,13 @@
 @text-color: #000;
 @letter-spacing-base: -.02em;
 
+// Header font sizes
+
+// @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+// @font-size-h1:            floor((@font-size-base * 2.8)); // ~36px
+// @font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+// @font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
+
 
 // Spacing
 @spacer:            20px;
@@ -100,10 +107,10 @@
 @navbar-default-link-active-bg:    transparent;
 @navbar-nav-active-font-weight:    inherit;
 
-// Navbar brand
-
-// @navbar-default-brand-color:       @brand-primary;
-
+// Navbar Inverse
+@navbar-inverse-color:             @brand-dark;
+@navbar-inverse-bg:                @brand-dark;
+@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Navbar - transparent
 @navbar-transparent-color:               #fff;

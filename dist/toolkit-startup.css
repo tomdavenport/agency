@@ -360,7 +360,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "freight-display-pro", Georgia, "Times New Roman", Times, serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #2d3238;
@@ -8968,6 +8968,11 @@ h6,
   margin-bottom: 5px;
   color: #bbbbbb;
   text-transform: uppercase;
+}
+.navbar-brand {
+  font-family: "freight-display-pro", Georgia, "Times New Roman", Times, serif;
+  color: #141f2b;
+  background: #43aadc;
 }
 
 /*# sourceMappingURL=toolkit-startup.css.map */

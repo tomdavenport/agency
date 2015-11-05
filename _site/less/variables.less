@@ -13,21 +13,22 @@
 @gray-light:   lighten(@gray-base, 66.7%); // #777
 @gray-lighter: lighten(@gray-base, 93.5%); // #eee
 
-
-// Brand Colors
-@brand-primary: #141F2B;
-@brand-success: #5cb85c;
-@brand-info:    #5bc0de;
-@brand-warning: #f0ad4e;
-@brand-danger:  #FF3167;
-
+// My Brand Colors
 @brand-gray:   #F2F2F2;
-@brand-navy:   #141F2B;
+@brand-dark:   #141F2B;
 @brand-yellow: #F9B500;
 @brand-green:  #55CA66;
 @brand-blue:   #43AADC;
 @brand-purple: #7742A5;
 @brand-red:    #E95836;
+
+
+// Brand Colors
+@brand-primary: @brand-yellow;
+@brand-success: @brand-green;
+@brand-info:    @brand-blue;
+@brand-warning: @brand-purple;
+@brand-danger:  @brand-red;
 
 
 // text
@@ -70,6 +71,7 @@
 @btn-font-weight:    700;
 @btn-text-transform: none;
 @btn-letter-spacing: normal;
+@btn-font-color:     @brand-dark;
 
 @btn-toolbar-divider-bg: @gray-lighter;
 
@@ -126,7 +128,7 @@
 @block-color:              inherit;
 @block-bg:                 #fff;
 @block-color-inverted:     #fff;
-@block-bg-inverted:        #000;
+@block-bg-inverted:        @brand-dark;
 @block-title-font-size-sm: floor((@font-size-base * 4));
 @block-title-font-size:    floor((@font-size-base * 3));
 @block-lead-font-size-sm:  floor((@font-size-base * 1.5));

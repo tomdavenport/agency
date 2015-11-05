@@ -441,7 +441,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 39px;
+  font-size: 48px;
 }
 h2,
 .h2 {
@@ -3784,8 +3784,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #cccccc;
 }
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+  background-color: #141f2b;
+  border-color: #040608;
 }
 .navbar-inverse .navbar-brand {
   color: #eaedef;
@@ -3796,7 +3796,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #eaedef;
+  color: #141f2b;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #eaedef;
@@ -3810,7 +3810,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #080808;
+  background-color: #040608;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -3830,20 +3830,20 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #090d13;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #080808;
+  background-color: #040608;
   color: #ffffff;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #080808;
+    border-color: #040608;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #080808;
+    background-color: #040608;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #eaedef;
@@ -3857,7 +3857,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #080808;
+    background-color: #040608;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -5188,7 +5188,7 @@ body {
 .navbar-inverse .navbar-brand-emphasized:hover,
 .navbar-inverse .navbar-brand-emphasized:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #040608;
 }
 .navbar-padded .navbar-header {
   padding-left: 5px;
@@ -5205,10 +5205,10 @@ body {
   box-shadow: none;
 }
 .navbar-inverse .navbar-form-control {
-  background-color: #343434;
+  background-color: #1f3143;
 }
 .navbar-inverse .navbar-form-control:focus {
-  color: #222222;
+  color: #141f2b;
   background-color: #fff;
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
 }
@@ -8306,7 +8306,7 @@ fieldset[disabled] .block-inverse .btn-outline.btn-default.active {
 }
 .h1.block-title,
 h1.block-title {
-  font-size: 37px;
+  font-size: 75px;
   line-height: 1;
 }
 .block .lead {
@@ -8963,6 +8963,9 @@ h6 .small,
 .h6 .small {
   font-weight: inherit;
 }
+h1 {
+  font-family: "freight-display-pro", Georgia, "Times New Roman", Times, serif;
+}
 h6,
 .h6 {
   margin-bottom: 5px;
@@ -8972,7 +8975,7 @@ h6,
 .navbar-brand {
   font-family: "freight-display-pro", Georgia, "Times New Roman", Times, serif;
   color: #141f2b;
-  background: #43aadc;
+  background: #141f2b;
 }
 
 /*# sourceMappingURL=toolkit-startup.css.map */

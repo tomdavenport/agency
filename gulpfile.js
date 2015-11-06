@@ -14,8 +14,8 @@ var Paths = {
   HERE                 : './',
   DIST                 : 'dist',
   DIST_TOOLKIT_JS      : 'dist/toolkit.js',
-  LESS_TOOLKIT_SOURCES : './less/toolkit*',
-  LESS                 : './less/**/**',
+  LESS_TOOLKIT_SOURCES : './_less/toolkit*',
+  LESS                 : './_less/**/**',
   JS                   : [
       './js/bootstrap/transition.js',
       './js/bootstrap/alert.js',

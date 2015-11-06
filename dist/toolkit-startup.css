@@ -3785,7 +3785,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse {
   background-color: #141f2b;
-  border-color: #040608;
+  border-color: #24384e;
 }
 .navbar-inverse .navbar-brand {
   color: #eaedef;
@@ -3840,10 +3840,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #040608;
+    border-color: #24384e;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #040608;
+    background-color: #24384e;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #eaedef;
@@ -5188,7 +5188,7 @@ body {
 .navbar-inverse .navbar-brand-emphasized:hover,
 .navbar-inverse .navbar-brand-emphasized:focus {
   color: #fff;
-  background-color: #040608;
+  background-color: #24384e;
 }
 .navbar-padded .navbar-header {
   padding-left: 5px;
@@ -8306,7 +8306,7 @@ fieldset[disabled] .block-inverse .btn-outline.btn-default.active {
 }
 .h1.block-title,
 h1.block-title {
-  font-size: 37px;
+  font-size: 75px;
   line-height: 1;
 }
 .block .lead {
@@ -8976,6 +8976,15 @@ h6,
   font-family: "freight-display-pro", Georgia, "Times New Roman", Times, serif;
   color: #141f2b;
   background: #141f2b;
+}
+.navbar-inverse {
+  border-top-width: 5px;
+  border-bottom-width: 1px;
+}
+.yellow-top {
+  border-top: 5px solid transparent;
+  border-top-width: 5px;
+  border-top-color: #f9b500;
 }
 
 /*# sourceMappingURL=toolkit-startup.css.map */

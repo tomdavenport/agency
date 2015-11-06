@@ -8986,5 +8986,9 @@ h6,
   border-top-width: 5px;
   border-top-color: #f9b500;
 }
+/* brand ribbon block */
+.app-ribbon {
+  background: #43aadc;
+}
 
 /*# sourceMappingURL=toolkit-startup.css.map */

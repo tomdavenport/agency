@@ -17,19 +17,19 @@ var Paths = {
   LESS_TOOLKIT_SOURCES : './_less/toolkit*',
   LESS                 : './_less/**/**',
   JS                   : [
-      './js/bootstrap/transition.js',
-      './js/bootstrap/alert.js',
-      './js/bootstrap/affix.js',
-      './js/bootstrap/button.js',
-      './js/bootstrap/carousel.js',
-      './js/bootstrap/collapse.js',
-      './js/bootstrap/dropdown.js',
-      './js/bootstrap/modal.js',
-      './js/bootstrap/tooltip.js',
-      './js/bootstrap/popover.js',
-      './js/bootstrap/scrollspy.js',
-      './js/bootstrap/tab.js',
-      './js/custom/*'
+      './_js/bootstrap/transition.js',
+      './_js/bootstrap/alert.js',
+      './_js/bootstrap/affix.js',
+      './_js/bootstrap/button.js',
+      './_js/bootstrap/carousel.js',
+      './_js/bootstrap/collapse.js',
+      './_js/bootstrap/dropdown.js',
+      './_js/bootstrap/modal.js',
+      './_js/bootstrap/tooltip.js',
+      './_js/bootstrap/popover.js',
+      './_js/bootstrap/scrollspy.js',
+      './_js/bootstrap/tab.js',
+      './_js/custom/*'
     ]
 }
 

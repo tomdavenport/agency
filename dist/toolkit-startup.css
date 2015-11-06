@@ -8968,6 +8968,7 @@ h1 {
 }
 h6,
 .h6 {
+  font-family: "jaf-facitweb", Helvetica, Arial, sans-serif;
   margin-bottom: 5px;
   color: #bbbbbb;
   text-transform: uppercase;

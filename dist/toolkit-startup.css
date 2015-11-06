@@ -8994,5 +8994,23 @@ h6,
 .icon-yellow {
   color: #f9b500;
 }
+.block-fill-height {
+  height: 90vh;
+}
+.font-white {
+  color: #fff;
+}
+.block-inverse-blue {
+  background-color: #43aadc;
+}
+.block-inverse-green {
+  background-color: #55ca66;
+}
+.block-inverse-purple {
+  background-color: #7742a5;
+}
+.block-inverse-red {
+  background-color: #e95836;
+}
 
 /*# sourceMappingURL=toolkit-startup.css.map */

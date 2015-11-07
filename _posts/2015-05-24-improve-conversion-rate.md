@@ -2,7 +2,7 @@
 title: Improve Your Conversion Rate
 description: Worried your conversion rate is low? Turn clicks into conversions with our simple consulting solution to improve your conversion rate.
 metaimage: improve-website-conversions.jpg
-layout: blog
+layout: default
 
 ---
 

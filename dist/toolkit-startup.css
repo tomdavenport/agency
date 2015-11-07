@@ -8963,8 +8963,18 @@ h6 .small,
 .h6 .small {
   font-weight: inherit;
 }
-h1 {
+h1,
+.h1 {
   font-family: "freight-display-pro", Georgia, "Times New Roman", Times, serif;
+}
+h2,
+.h2 {
+  font-family: "freight-text-pro", Georgia, "Times New Roman", Times, serif;
+}
+article p,
+article li,
+article ol {
+  font-size: 18px;
 }
 h6,
 .h6 {

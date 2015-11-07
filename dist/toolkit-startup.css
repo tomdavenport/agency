@@ -9010,6 +9010,12 @@ h6,
 .font-white {
   color: #fff;
 }
+.signature {
+  font-family: "alexa-std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+cite {
+  font-family: "jaf-facitweb", Helvetica, Arial, sans-serif;
+}
 .block-inverse-blue {
   background-color: #43aadc;
 }

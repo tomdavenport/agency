@@ -12,7 +12,7 @@ layout: blog
 <h5 class="byline">{{ post.date | date: "%b %d, %Y" }} <a href="{{page.url}}#disqus_thread"></a></h6>
 
     <p>
-    {{ post.content | strip_html | truncatewords:25}}</p>
+    {{ post.content | strip_html | truncatewords:40}}</p>
     <p id="read-more"><a href="{{ post.url }}" title="{{ post.title }}">Read more ({{post.content | reading_time }})</a>
     </p>
         {% endfor %}

@@ -3,27 +3,23 @@
 title: A digital marketing consultant you can trust to deliver profitable results.
 description:
 metaimage:
-layout: default
+layout: about
 
 ---
 
-- Results-based image
+![Growing website traffic with digital marketing]({{site.url}}/img/analytics-growth.jpg)
 
 ### Most digital agencies aren’t marketing experts.
 Websites are great, but if your website isn’t rapidly growing your revenue, it isn’t good enough. We only care about growing your **revenue** and **profit** — and proving it.
 
 ### My team is trusted by these amazing companies
 
-> I’m a digital marketer who measures success with money, not tactics. I know how to find where your website is leaking money, and have a strategy to solve it. You’ll know how much to invest, and what the return will be. If I don’t hit this goal, I don’t get my bonus - simple.
-> Tom Davenport, Digital Marketing Specialist
-> (Headshot)
+{% include snippet/tom-quote.html %}
 
 ## Book your private consultation with Tom
 (Book Now)
 
 ### Testimonials from companies like yours
-
-{% include testimonials-small.html %}
 
 > “Tom was brilliant! Not only does he know what he is doing, he can explain it in a way that those of us who clearly don't know what we are doing, can understand.”
 > James Beckwith, Director, Minuteman Press

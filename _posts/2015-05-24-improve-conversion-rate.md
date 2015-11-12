@@ -6,6 +6,8 @@ layout: default
 
 ---
 
+<p class="lead">Worried your conversion rate is low? Turn clicks into conversions with our simple consulting solution to improve your conversion rate.</p>
+
 ## The problem with your sales
 
 You’re a business manager or marketer. You’re trying to **grow a business** by improving the conversion rate of your website.

@@ -96,23 +96,30 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1, {
   font-family: @font-family-serif;
+  font-weight: @font-weight-base-serif;
+  font-size: floor((@font-size-base * 5));
 }
 
 h2, .h2 {
-  font-family: @font-family-serif-2;
+  font-family: @font-family-serif;
+  font-size: floor((@font-size-base * 2.5));
+  font-weight: @font-weight-base-serif;
 }
 
-// article {
-  p, li, ol {
-  font-size: 18px;
+h3, .h3 {
+  font-family: @font-family-sans-serif;
+  font-weight: 700;
 }
-// }
 
 h6, .h6 {
   font-family: @font-family-small;
   margin-bottom: (@spacer-y * .25);
   color: lighten(@gray, 40%);
   text-transform: uppercase;
+}
+
+  p, li, ol {
+  font-size: 21px;
 }
 
 // Navbar background:
@@ -162,12 +169,6 @@ background: @brand-blue;
 
 .font-white {
   color: #fff;
-}
-
-// Signature Text
-
-.signature {
-  font-family: @font-family-signature;
 }
 
 // Cite font family

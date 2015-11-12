@@ -4,28 +4,36 @@
 <!-- <div class="block block-inverse block-xs-middle"> -->
 {% include nav.html %}
 <!-- </div> -->
-<div class="block">
+<section class="block">
     <div class="container">
-        <!-- Change the width and height values to suit you best -->
-        <div class="typeform-widget" data-url="https://tom43.typeform.com/to/SdANbG" data-text="Contact Form" style="width:100%;height:500px;"></div>
-        <script>
-        (function() {
-            var qs, js, q, s, d = document,
-                gi = d.getElementById,
-                ce = d.createElement,
-                gt = d.getElementsByTagName,
-                id = 'typef_orm',
-                b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-            if (!gi.call(d, id)) {
-                js = ce.call(d, 'script');
-                js.id = id;
-                js.src = b + 'widget.js';
-                q = gt.call(d, 'script')[0];
-                q.parentNode.insertBefore(js, q)
-            }
-        })()
-        </script>
-        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_SdANbG&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
+        <div class="row m-t ">
+            <h1 class="text-center p-b-lg">{{ page.heading }}</h1>
+            <div class="col-xs-6 p-r-md">
+                {{ content }}
+                <!-- Website SCHEMA -->
+                <div itemscope itemtype="http://schema.org/LocalBusiness">
+                    <a itemprop="url" href="http://www.digitalmarketingspecialist.co.uk" title="Digital Marketing Specialist"></a>
+                    <div itemprop="description">A digital marketing consultancy based in Marlborough, Wiltshire.<br>
+                        <br>We build digital marketing systems, increase your conversion rate, and grow your business.
+                    </div>
+                    <br>
+                    <div itemprop="name"><strong>Digital Marketing Specialist Ltd</strong>
+                    </div>
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">Elcot Lane</span>,
+                        <span itemprop="addressLocality">Marlborough</span>,
+                        <span itemprop="addressRegion">Wiltshire</span>
+                        <br>
+                        <span itemprop="postalCode">SN8 2AE</span>,
+                        <span itemprop="addressCountry">United Kingdom</span>
+                    </div>
+                    <iframe class="m-t"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548940.7157770703!2d-3.95677783471285!3d51.399381251334404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3fb52b836d4b8be!2sDigital+Marketing+Specialist+Ltd!5e0!3m2!1sen!2suk!4v1447281905306" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="container block-inverse block-inverse-blue col-xs-6 p-y-md p-x-lg">
+                {% include contact-form.html %}
+            </div>
+        </div>
     </div>
-</div>
+</section>
 {% include footer.html %}

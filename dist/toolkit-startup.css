@@ -9053,5 +9053,11 @@ cite {
   border: 3px solid #e95836;
   background-color: #fff;
 }
+label {
+  font-size: 18px;
+}
+#inputMessage {
+  height: 192px;
+}
 
 /*# sourceMappingURL=toolkit-startup.css.map */

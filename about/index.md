@@ -79,7 +79,6 @@ They are not just colleagues, but friends. I work with the best, because I want 
 Then again, if you want someone to make this easy and get you reliable results as fast as possible, we’re a good fit. You’ll join an elite pool of businesses that are dominating their niche. Are you in?
 
 
-- Full CTA form
 
 I have limited space for these full bespoke digital marketing packages. This is a serious, comprehensive package that will change your businesses, and my expert team has limited availability.
 

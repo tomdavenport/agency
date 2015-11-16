@@ -2,7 +2,7 @@
 layout: contact
 title: Contact a Digital Marketing Specialist
 description:
-heading: Let's make it happen.
+heading: Contact us today.
 ---
 
 Fill out the form or give us a call, and my assistant will arrange a time for you and me to have a confidential discussion about growing your business.

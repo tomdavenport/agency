@@ -92,18 +92,25 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1, {
   font-family: @font-family-serif;
   font-weight: @font-weight-base-serif;
-  font-size: floor((@font-size-base * 5));
-  line-height: 1;
+  font-size: floor((@font-size-base * 4));
+  line-height: 1.2;
 }
 
 h2, .h2 {
   font-family: @font-family-serif;
-  font-size: floor((@font-size-base * 2.5));
+  font-size: floor((@font-size-base * 1.5));
   font-weight: @font-weight-base-serif;
+  line-height: 1.25;
+}
+
+.lead {
+  font-weight: @font-weight-base;
+  font-size: floor((@font-size-base * 1.5));
 }
 
 h3, .h3 {
   font-family: @font-family-sans-serif;
+  font-size: floor((@font-size-base * 1.125));
   font-weight: 700;
 }
 
@@ -111,29 +118,41 @@ h6, .h6 {
   font-family: @font-family-small;
   margin-bottom: (@spacer-y * .25);
   color: lighten(@gray, 40%);
+  font-size: floor((@font-size-base * .625));
   text-transform: uppercase;
+  letter-spacing: .14em;
+  font-weight: 700;
 }
 
 p, li, ol, ul {
-  font-size: 18px;
+  font-size: @font-size-base;
+  font-weight: @font-weight-base;
 }
 
 footer {
   p, li, ol, ul {
   font-size: 15px;
+  font-weight: @font-weight-base;
 }
 }
 
-.article {
-  p, li, ol {
-  font-size: 21px;
-}
-}
+// .article {
+//   p, li, ol {
+//   font-size: 21px;
+// }
+// }
 
-  small,
+  // small,
+  // .small {
+  //   font-weight: inherit;
+  //  font-size: 16px;
+  // }
+
+    small,
   .small {
-    font-weight: inherit;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: floor((@font-size-base * .625));
+    line-height: 1.6;
   }
 
 // footer {

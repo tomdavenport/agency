@@ -4,6 +4,7 @@ title: Thank you
 description:
 heading: Contact Digital Marketing Specialist
 subheading:
+noindex: true
 ---
 
 Thank you, your form submission has been successful.

@@ -7,27 +7,25 @@
 
 <div class="block block-inverse block-fill-height app-header">
 
-  <img class="app-graph" src="docs/assets/img/startup-0.svg">
+  <img class="app-graph" src="{{ site.url }}/img/growth.svg" alt="Digital Growth">
 
   <div class="block-xs-middle p-b-lg">
     <div class="container">
       <div class="row">
         <div class="col-sm-10 col-md-8">
-          <img src="{{ site.url }}/img/logo/digital-marketing-specialist-white.svg" style="width: 80%;" alt="Digital Marketing Specialist">
-          <h1 class="block-title m-b-sm">{{ page.heading }}</h1>
+          <h1><img src="{{ site.url }}/img/logo/digital-marketing-specialist-white.svg" style="width: 80%;" alt="Digital Marketing Specialist"></h1>
+          <!-- <h1 class="block-title m-b-sm">{{ page.heading }}</h1> -->
           <p class="lead m-b-md text-muted">{{ page.subheading }}</p>
-          <button class="btn btn-info btn-lg m-r">{{ page.cta }}</button>
-          <button class="btn btn-default btn-lg btn-outline">Learn more</button>
+          <a href="{{site.url}}/contact/" title="Contact"><button class="btn btn-info btn-lg m-r">{{ page.cta }}</button></a>
+          <!-- <button class="btn btn-default btn-lg btn-outline">Learn more</button> -->
         </div>
       </div>
     </div>
   </div>
 </div>
 
-{% include featured-in.html %}
-
 {% include testimonials-large.html %}
 
-{% include benefits.html %}
+<!-- {% include benefits.html %} -->
 
 {% include footer.html %}

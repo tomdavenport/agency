@@ -1,5 +1,5 @@
 <div class="post-loop">
-    <h5>Read another article by {{ site.name }}:</h5>
+    <h5 class="m-t-0">Read another article by {{ site.name }}:</h5>
     <ul>
         {% for post in site.posts limit: 5 %}
         <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>

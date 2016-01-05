@@ -2,9 +2,11 @@
 title: Improve Your Conversion Rate
 description: Worried your conversion rate is low? Turn clicks into conversions with our simple consulting solution to improve your conversion rate.
 metaimage: improve-website-conversions.jpg
-layout: service
+layout: default
 
 ---
+
+<p class="lead">Worried your conversion rate is low? Turn clicks into conversions with our simple consulting solution to improve your conversion rate.</p>
 
 ## The problem with your sales
 
@@ -87,4 +89,4 @@ That’s why I run a health check on your data before starting. You might be dou
 
 Those actions don’t even make it to the list. If I find a change which could make another £10k in 3 months, but it costs £15k (unlikely, but let’s go with it), this doesn’t even make it to the list. I’ve worked with developers at every size website imaginable, and a confident developer myself, so I’ve got a great understanding of the approximate cost of any action. To get on my list, it has to offer a substantial return on investment.
 
-<a href="/#contact" title="Contact us now" class="btn btn-xl btn-service">Get a free consultation</a>
+<a href="{{ site.url }}/contact/" title="Contact" role="button" class="btn btn-primary-outline m-b-md btn-lg">Get a free 1hr consultation</a>

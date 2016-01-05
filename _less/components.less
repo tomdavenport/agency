@@ -1,0 +1,275 @@
+// Bootstrap mixins
+@import "./bootstrap/mixins.less";
+@import "./custom/mixins.less";
+
+// Reset and dependencies
+@import "./bootstrap/normalize.less";
+@import "./bootstrap/print.less";
+
+// Core CSS
+@import "./bootstrap/scaffolding.less";
+@import "./bootstrap/type.less";
+@import "./bootstrap/code.less";
+@import "./bootstrap/grid.less";
+@import "./bootstrap/tables.less";
+@import "./bootstrap/forms.less";
+@import "./bootstrap/buttons.less";
+
+// Components
+@import "./bootstrap/component-animations.less";
+@import "./bootstrap/dropdowns.less";
+@import "./bootstrap/button-groups.less";
+@import "./bootstrap/input-groups.less";
+@import "./bootstrap/navs.less";
+@import "./bootstrap/navbar.less";
+@import "./bootstrap/breadcrumbs.less";
+@import "./bootstrap/pagination.less";
+@import "./bootstrap/pager.less";
+@import "./bootstrap/labels.less";
+@import "./bootstrap/badges.less";
+@import "./bootstrap/jumbotron.less";
+@import "./bootstrap/thumbnails.less";
+@import "./bootstrap/alerts.less";
+@import "./bootstrap/progress-bars.less";
+@import "./bootstrap/media.less";
+@import "./bootstrap/list-group.less";
+@import "./bootstrap/panels.less";
+@import "./bootstrap/responsive-embed.less";
+@import "./bootstrap/wells.less";
+
+// Extended Bootstrap components
+@import "./custom/type-custom.less";
+@import "./custom/alerts-custom.less";
+@import "./custom/buttons-custom.less";
+@import "./custom/nav-heading.less";
+@import "./custom/navbar-utilities.less";
+
+// Components w/ JavaScript
+@import "./bootstrap/modals.less";
+@import "./bootstrap/tooltip.less";
+@import "./bootstrap/popovers.less";
+@import "./bootstrap/carousel.less";
+
+// Utility classes
+@import "./bootstrap/utilities.less";
+@import "./bootstrap/responsive-utilities.less";
+
+// Custom theme components
+@import "./custom/icons.less";
+@import "./custom/utilities-spacer.less";
+@import "./custom/text-inherit.less";
+@import "./custom/nav-bordered.less";
+@import "./custom/buttons-outline.less";
+@import "./custom/buttons-radius.less";
+@import "./custom/forms-custom.less";
+@import "./custom/container-custom.less";
+@import "./custom/block.less";
+@import "./custom/navbar-transparent.less";
+@import "./custom/carousel-light.less";
+@import "./custom/callouts.less";
+@import "./custom/featured-list.less";
+@import "./custom/zoom.less";
+@import "./custom/text-ribbon.less";
+@import "./custom/iconlist.less";
+@import "./custom/panels-bold.less";
+@import "./custom/statcard.less";
+@import "./custom/pull-quote.less";
+@import "./custom/stage.less";
+
+
+//
+// Custom styles
+//
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+
+  &.text-uppercase {
+    letter-spacing: .15em;
+  }
+}
+
+h1, .h1, {
+  font-family: @font-family-serif;
+  font-weight: @font-weight-base-serif;
+  font-size: floor((@font-size-base * 4));
+  line-height: 1.2;
+}
+
+h2, .h2 {
+  font-family: @font-family-serif;
+  font-size: floor((@font-size-base * 1.5));
+  font-weight: @font-weight-base-serif;
+  line-height: 1.25;
+}
+
+.lead {
+  font-weight: @font-weight-base;
+  font-size: floor((@font-size-base * 1.5));
+}
+
+h3, .h3 {
+  font-family: @font-family-sans-serif;
+  font-size: floor((@font-size-base * 1.125));
+  font-weight: 700;
+}
+
+h6, .h6 {
+  font-family: @font-family-small;
+  margin-bottom: (@spacer-y * .25);
+  color: lighten(@gray, 40%);
+  font-size: floor((@font-size-base * .625));
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-weight: 700;
+}
+
+p, li, ol, ul {
+  font-size: @font-size-base;
+  font-weight: @font-weight-base;
+}
+
+footer {
+  p, li, ol, ul {
+  font-size: 15px;
+  font-weight: @font-weight-base;
+}
+}
+
+// .article {
+//   p, li, ol {
+//   font-size: 21px;
+// }
+// }
+
+  // small,
+  // .small {
+  //   font-weight: inherit;
+  //  font-size: 16px;
+  // }
+
+    small,
+  .small {
+    font-weight: 400;
+    font-size: floor((@font-size-base * .625));
+    line-height: 1.6;
+  }
+
+// footer {
+//   p, li, ol {
+//   font-size: 14px;
+// }
+// }
+
+// Navbar background:
+  .navbar-brand {
+    font-family: @font-family-serif;
+    color: @brand-dark;
+    background: @brand-dark;
+  }
+
+// Navbar border
+
+.navbar-inverse {
+  border-top-width: 5px;
+  // border-bottom-color: @brand-blue;
+  border-bottom-width: 1px;
+}
+
+.yellow-top {
+  border-top: 5px solid transparent;
+  border-top-width: 5px;
+  border-top-color: @brand-yellow;
+}
+
+// Featured In bar (app-ribbon)
+
+/* brand ribbon block */
+.app-ribbon {
+background: @brand-blue;
+}
+
+// Icon colors
+
+.icon-yellow {
+  color: @brand-yellow;
+}
+
+// block fill height
+
+.block-fill-height {
+  height: 80vh;
+}
+
+// Ribbon colors
+
+
+// White text
+
+.font-white {
+  color: #fff;
+}
+
+// Cite font family
+
+cite {
+  font-family: @font-family-small;
+}
+
+// Block Inverse Colors
+
+.block-inverse-blue {
+  background-color: @brand-blue;
+}
+
+.block-inverse-green {
+  background-color: @brand-green;
+}
+.block-inverse-purple {
+  background-color: @brand-purple;
+}
+.block-inverse-red {
+  background-color: @brand-red;
+}
+
+// img-border
+
+.border-blue {
+   padding:2px;
+   border: 3px solid @brand-blue;
+   background-color:#fff;
+}
+
+.border-yellow {
+   padding:2px;
+   border: 3px solid @brand-yellow;
+   background-color:#fff;
+}
+
+.border-green {
+   padding:2px;
+   border: 3px solid @brand-green;
+   background-color:#fff;
+}
+
+.border-purple {
+   padding:2px;
+   border: 3px solid @brand-purple;
+   background-color:#fff;
+}
+
+.border-red {
+   padding:1px;
+   border: 3px solid @brand-red;
+   background-color:#fff;
+}
+
+// Forms
+
+label {
+  font-size: 19px;
+}
+
+#inputMessage {
+  height:192px;
+}

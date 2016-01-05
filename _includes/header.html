@@ -6,20 +6,28 @@
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="">
 
-    <title>{{ page.title }}</title>
+    <!-- Typekit -->
+<script src="https://use.typekit.net/oxr8ulj.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <title>{{ page.title }}</title>
+  <!-- meta robots -->
+ {% if page.noindex %}
+  <meta name="robots" content="noindex" />
+ {% endif %}
 
-    <!-- Custom CSS -->
-    <link href="../css/agency.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
 
-    <!-- Custom Fonts -->
-    <link href="../font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script&text=DdigtalMrkengpcSst' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<!--       <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'> -->
+<!--       <link href="{{site.url}}/assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="{{site.url}}/assets/css/application-startup.css" rel="stylesheet">
+ -->
+
+      <link href="{{ site.url }}/assets/css/application-startup.css" rel="stylesheet">
+      <link href="{{ site.url }}/dist/toolkit-startup.css" rel="stylesheet">
+
+
+      <!-- <link href="{{site.url}}/dist/toolkit.min.css" rel="stylesheet"> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,16 +38,16 @@
 
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="{{ page.title }}">
-<meta itemprop="description" content="{{page.description}}">
-<meta itemprop="image" content="{{site.url}}/img/meta/{{page.metaimage}}">
+<meta itemprop="description" content="{{ page.description }}">
+<meta itemprop="image" content="{{ site.url }}/img/meta/{{ page.metaimage }}">
 
 <!-- Twitter card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@{{site.twitter}}">
-<meta name="twitter:creator" content="@{{site.twitter}}">
-<meta name="twitter:title" content="{{page.title}}">
-<meta name="twitter:description" content="{{page.description}}">
-<meta name="twitter:image" content="{{site.url}}/img/meta/{{ page.metaimage }}">
+<meta name="twitter:site" content="@{{ site.twitter }}">
+<meta name="twitter:creator" content="@{{ site.twitter }}">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{{ site.url }}/img/meta/{{ page.metaimage }}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 
 <!-- Open Graph data -->
@@ -47,25 +55,21 @@
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<meta property="og:image" content="{{site.url}}/img/meta/{{page.metaimage}}" />
-<meta property="og:description" content="{{page.description}}" />
+<meta property="og:image" content="{{ site.url }}/img/meta/{{ page.metaimage }}" />
+<meta property="og:description" content="{{ page.description }}" />
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="article:published_time" content="{{ page.date }}" />
 <meta property="article:tag" content="{{ page.tags }}" />
 
-{% include marketing.html %}
-
 </head>
 
-<body id="page-top" class="index">
+<body>
 
-    <!-- Header -->
-    <!--     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">You need a</div>
-                <div class="intro-heading">Digital Marketing Specialist</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
-    </header> -->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WHQWBJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WHQWBJ');</script>

@@ -1,12 +1,12 @@
 name: "Digital Marketing Specialist"
 description: "A digial marketing specialist agency in Wiltshire, England."
 
-url: "http://www.digitalmarketingspecialist.co.uk"
-#url: "http://localhost:4000"
+#url: "http://www.digitalmarketingspecialist.co.uk"
+url: "http://localhost:4000"
 
 paginate: 10
 
-markdown: rdiscount
+# markdown: rdiscount
 permalink: /:title/
 highlighter: pygments
 
@@ -16,6 +16,12 @@ copyright: Digital Marketing Specialist Ltd
 twitter: tomdavenport
 
 # Sitemap
+
+gems:
+#- jekyll-sitemap
+- jekyll-redirect-from
+# - ruby-oembed
+- jekyll-paginate
 
 #sitemap:
 #    file: "/sitemap.xml"

@@ -33,4 +33,8 @@ gems:
 #    change_frequency_name: "change_frequency"
 #    priority_name: "priority"
 
+include: [.htaccess]
+
 exclude: [node_modules, docs, .gitignore, Gemfile, Gemfile.lock, gulpfile.js, package.json]
+
+timezone: Europe/London

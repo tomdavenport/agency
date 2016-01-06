@@ -32,3 +32,5 @@ gems:
 #        - "/index.html"
 #    change_frequency_name: "change_frequency"
 #    priority_name: "priority"
+
+exclude: [node_modules, docs, .gitignore, Gemfile, Gemfile.lock, gulpfile.js, package.json]

@@ -1,8 +1,8 @@
 name: "Digital Marketing Specialist"
 description: "A digial marketing specialist agency in Wiltshire, England."
 
-url: "http://www.digitalmarketingspecialist.co.uk"
-#url: "http://localhost:4000"
+#url: "http://www.digitalmarketingspecialist.co.uk"
+url: "http://localhost:4000"
 
 paginate: 10
 
@@ -35,6 +35,6 @@ gems:
 
 include: [.htaccess]
 
-exclude: [node_modules, docs, .gitignore, Gemfile, Gemfile.lock, gulpfile.js, package.json]
+exclude: [node_modules, docs, .gitignore, Gemfile, Gemfile.lock, gulpfile.js, package.json, _less]
 
 timezone: Europe/London

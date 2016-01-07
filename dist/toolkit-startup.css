@@ -8069,7 +8069,7 @@ fieldset[disabled] .btn-danger-outline.active {
 .container-fill-height {
   display: table;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 .container-fill-height .container-content-bottom,
 .container-fill-height .container-content-middle {

@@ -3833,7 +3833,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ffffff;
+  color: #1b2b3a;
   background-color: #0b1117;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -3860,7 +3860,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #0b1117;
-  color: #ffffff;
+  color: #1b2b3a;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
@@ -3880,7 +3880,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
+    color: #1b2b3a;
     background-color: #0b1117;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -9011,6 +9011,22 @@ h6,
   letter-spacing: .14em;
   font-weight: 700;
 }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 57px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
+a {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
 p,
 li,
 ol,
@@ -9053,7 +9069,7 @@ small,
   color: #f9b500;
 }
 .block-fill-height {
-  height: 50vh;
+  height: 100vh;
 }
 .font-white {
   color: #fff;
@@ -9103,4 +9119,16 @@ label {
 }
 #inputMessage {
   height: 192px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #1b2b3a;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #1b2b3a;
 }

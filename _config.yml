@@ -1,8 +1,8 @@
 name: "Digital Marketing Specialist"
-description: "A digial marketing specialist agency in Wiltshire, England."
+description: "A top-rated digial marketing specialist in Wiltshire, England. Book your free consultation with our expert team today."
 
 #url: "http://www.digitalmarketingspecialist.co.uk"
-url: "http://localhost:4000"
+url: "http://192.168.1.191:4000"
 
 paginate: 10
 
@@ -13,9 +13,7 @@ highlighter: pygments
 # RSS info
 author: Tom Davenport
 copyright: Digital Marketing Specialist Ltd
-twitter: tomdavenport
-
-# Sitemap
+twitter: dms_tweets
 
 gems:
 #- jekyll-sitemap
@@ -35,6 +33,6 @@ gems:
 
 include: [.htaccess]
 
-exclude: [node_modules, docs, .gitignore, Gemfile, Gemfile.lock, gulpfile.js, package.json, _less]
+exclude: [node_modules, docs, .gitignore, Gemfile, Gemfile.lock, gulpfile.js, package.json, npm-debug.log]
 
 timezone: Europe/London

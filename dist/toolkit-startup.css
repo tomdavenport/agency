@@ -9092,5 +9092,8 @@ label {
   color: #ffffff;
   background-color: #1b2b3a;
 }
+.stage-shelf {
+  position: fixed;
+}
 
 /*# sourceMappingURL=toolkit-startup.css.map */

@@ -98,7 +98,7 @@ This is a service that could otherwise take you years to figure out for yourself
 
 ## Why Digital Marketing Specialist?
 
-Every meeting will be easy, conversational and to the point. I don't bobmard you with technical jargon.
+Every meeting will be easy, conversational and to the point. I don't bombard you with technical jargon.
 
 In just one week from now, your Facebook campaign could be live, bringing you  leads and sales. Imagine getting notifications on your phone, showing new leads that have arrived overnight. 
 

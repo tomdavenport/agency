@@ -64,7 +64,7 @@ What people like you are saying about Digital Marketing Specialist. [Contact us]
 
 ## Start your strategy now
 
-Contact us today for a **free planning consultation** and start your digital marketing roadmap today.
+Contact us today for a **free planning consultation** and start your digital marketing road map today.
 
 <a href="{{ site.url }}/contact/" title="Contact" role="button" class="btn btn-primary-outline m-b-md btn-lg m-t hidden-xs">Book Free Consultation</a>
 

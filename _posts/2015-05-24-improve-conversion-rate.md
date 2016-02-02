@@ -2,7 +2,7 @@
 title: Improve Your Conversion Rate
 description: Worried your conversion rate is low? Turn clicks into conversions with our simple consulting solution to improve your conversion rate.
 metaimage: improve-website-conversions.jpg
-layout: default
+layout: blog
 
 ---
 
@@ -32,8 +32,6 @@ Imagine looking around for ideas to increase your conversions.
 > *“What are some steps I can take to raise my conversion rate? What could I be doing better?”*
 
  Then *poof*, a list of great ideas land in your lap with things you can do to start gaining traction.
-
->*”I was actually looking for something like this!”*
 
 The thing is, they’re actually great ideas. The kind you would have never thought of. These ideas form a strategy to help you build your online store. You make more money as a result of applying these lessons.
 

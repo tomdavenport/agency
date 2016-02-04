@@ -5,7 +5,7 @@ description: How we help companies like yours to attract new clients, boost sale
 center:
 ---
 
-We help companies like yours to attract new clients, boost sales, and increase lifetime.
+We help companies like yours to attract new clients, boost sales, and increase lifetime value.
 
 Here's a selection of recent case studies:
 

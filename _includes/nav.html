@@ -1,55 +1,60 @@
 <!-- Hidden nav on mobile -->
-
 <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
-  <ul class="nav nav-bordered nav-stacked">
-    <li class="nav-header">Navigation</li>
-    <li class="active">
-      <a href="{{site.url}}" title="Home">Home</a>
-    </li>
-    <li class="active">
-      <a href="{{site.url}}/reviews/" title="Reviews">Reviews</a>
-    </li>
-    <li class="active">
-          <a href="{{site.url}}/case-study/" title="Case Studies">Case Studies</a>
+    <ul class="nav nav-bordered nav-stacked">
+        <li class="nav-header">Navigation</li>
+        {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/free/" title="Free Digital Marketing Tools">Free Tools</a>
         </li>
-    <li class="active">
-      <a href="{{site.url}}/contact/" title="Contact">Contact</a>
-    </li>
-    <li class="nav-divider"></li>
-  </ul>
+        {% if page.url contains 'why' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/why/" title="Digital Marketing Clients">Why Us?</a>
+        </li>
+        {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
+        </li>
+          {% if page.url contains 'articles' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/articles/" title="Digital Marketing Services">Blog</a>
+        </li>
+        {% if page.url contains 'contact' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/contact/" title="Contact">Contact</a>
+        </li>
+        <li class="nav-divider"></li>
+    </ul>
 </div>
-
 <div class="stage" id="stage">
-
-<nav class="navbar navbar-fixed-top navbar-inverse navbar-padded app-navbar navbar-navy yellow-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed p-x-0"
-              data-target="#stage" data-toggle="stage" data-distance="-250">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.url }}" title="{{ site.name }}">
-        <img src="{{ site.url }}/img/logo/digital-marketing-specialist-white-long.svg" alt="Digital Marketing Specialist" style="height: 25px;" class="img-responsive">
-      </a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right nav-pills">
-<!--         <li >
-          <a href="{{site.url}}/articles/" title="Digital Marketing Articles">Articles</a>
-        </li> -->
-        <li class="active">
-          <a href="{{site.url}}/reviews/" title="Reviews">Reviews</a>
-        </li>
-        <li class="active">
-          <a href="{{site.url}}/case-study/" title="Case Studies">Case Studies</a>
-        </li>
-        <li>
-          <a href="{{site.url}}/contact/">Contact</a>
-        </li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</nav>
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-padded app-navbar navbar-navy yellow-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed p-x-0" data-target="#stage" data-toggle="stage" data-distance="-250">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ site.url }}" title="{{ site.name }}">
+                    <img src="{{ site.url }}/img/logo/digital-marketing-specialist-white-long.svg" alt="Digital Marketing Specialist" style="height: 25px;" class="img-responsive">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right nav-pills">
+                    {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/free/" title="Free Digital Marketing Tools">Free Tools</a>
+                    </li>
+                    {% if page.url contains 'why' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/why/" title="Digital Marketing Clients">Why Us?</a>
+                    </li>
+                    {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
+                    </li>
+                    {% if page.url contains 'articles' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/articles/" title="Digital Marketing Services">Blog</a>
+                    </li>
+                    {% if page.url contains 'contact' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/contact/" title="Contact">
+                            <button class="btn btn-info" style="line-height: 26px; color:#1C2B3A;">Contact</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>

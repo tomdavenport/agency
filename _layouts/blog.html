@@ -8,9 +8,43 @@
     <div class="container">
         <h1 class="m-b-md p-r">{{ page.title }}</h1>
         <div class="row">
-            <article class="col-md-8">
+            <article class="col-md-8 col-sm-8 col-xs-12 p-r">
                 {{ content }}
             </article>
+            <aside class="col-md-4 col-sm-4 hidden-xs affix-top">
+
+                <!-- Tripwire ad -->
+                <a href="{{ site.url }}/contact/" title="Call Us">
+                    <img class=" hidden-sm m-b" src="{{ site.url }}/img/tripwire/call-rectangle.jpg" alt="Call a Digital Marketing Specialist now">
+                    <img class="hidden-md hidden-lg m-b" src="{{ site.url }}/img/tripwire/call-skyscraper.jpg" alt="Call a Digital Marketing Specialist now">
+                </a>
+
+                <!-- Lead magnet ad -->
+
+                <!-- Social icons -->
+            <div class="hidden-sm text-center m-b">
+                <h3 class="text-muted">Follow us on social media</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/digitalmarketingspecialistltd/" title="Digital Marketing Specialist on Facebook">
+                        <span class="icon icon-facebook-with-circle"></span>
+                    </a>
+                    <a href="https://twitter.com/dms_tweets/" title="Digital Marketing Specialist on Twitter">
+                        <span class="icon icon-twitter-with-circle"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/company/digital-marketing-specialist-ltd/" title="Digital Marketing Specialist on Linkedin">
+                        <span class="icon icon-linkedin-with-circle"></span>
+                    </a>
+                    <a href="https://www.facebook.com/digitalmarketingspecialistltd/
+https://plus.google.com/+DigitalmarketingspecialistCoUk" title="Digital Marketing Specialist on Google+">
+                        <span class="icon icon-google-plus-with-circle"></span>
+                    </a>
+                </div><!--icons-->
+            </div><!--hidden-->
+            <div class="hidden-sm">
+                {% include post-loop.html %}
+            </div>
+
+            </aside>
             <!-- <aside class="col-md-4 col-push-1 p-t-0">
                 {% include post-loop.html %}
             </aside> -->

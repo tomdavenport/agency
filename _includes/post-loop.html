@@ -1,6 +1,6 @@
-<div class="post-loop">
-    <h5 class="m-t-0">Read another article by {{ site.name }}:</h5>
-    <ul>
+<div class="post-loop grey-background p-a">
+    <h3 class="m-t-0">Read more by {{ site.name }}</h3>
+    <ul style="list-style-type:none; padding:0;">
         {% for post in site.posts limit: 5 %}
         <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         </li>

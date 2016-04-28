@@ -2,17 +2,20 @@
 <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
     <ul class="nav nav-bordered nav-stacked">
         <li class="nav-header">Navigation</li>
-        {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
+        <!-- {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/free/" title="Free Digital Marketing Tools">Free Tools</a>
+        </li> -->
+        {% if page.url contains 'reviews' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
         </li>
-        {% if page.url contains 'why' %}<li class="active">{% else %}<li>{% endif %}
-            <a href="{{site.url}}/why/" title="Digital Marketing Clients">Why Us?</a>
-        </li>
-        {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
+        <!-- {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
+        </li> -->
+        {% if page.url contains 'case-study' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/case-study/" title="Digital Marketing Case Studies">Case Studies</a>
         </li>
-          {% if page.url contains 'articles' %}<li class="active">{% else %}<li>{% endif %}
-            <a href="{{site.url}}/articles/" title="Digital Marketing Services">Blog</a>
+        {% if page.url contains 'articles' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/articles/" title="Digital Marketing Blog">Blog</a>
         </li>
         {% if page.url contains 'contact' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/contact/" title="Contact">Contact</a>
@@ -36,17 +39,20 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right nav-pills">
-                    {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
+                    <!-- {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/free/" title="Free Digital Marketing Tools">Free Tools</a>
+                    </li> -->
+                    {% if page.url contains 'reviews' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
                     </li>
-                    {% if page.url contains 'why' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/why/" title="Digital Marketing Clients">Why Us?</a>
-                    </li>
-                    {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
+                    <!-- {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
+                    </li> -->
+                    {% if page.url contains 'case-study' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/case-study/" title="Digital Marketing Case Studies">Case Studies</a>
                     </li>
                     {% if page.url contains 'articles' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/articles/" title="Digital Marketing Services">Blog</a>
+                        <a href="{{site.url}}/articles/" title="Digital Marketing Blog">Blog</a>
                     </li>
                     {% if page.url contains 'contact' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/contact/" title="Contact">

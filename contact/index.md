@@ -5,4 +5,4 @@ description: Contact details for Digital Marketing Specialist Ltd, an online mar
 heading: Contact us today.
 ---
 
-Fill out the form or give us a call, and my assistant will arrange a time for you and I to have a confidential discussion about growing your business.
+Fill out the form or give us a call, and we can start to discuss how best to develop your digital marketing activity.

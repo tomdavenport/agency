@@ -2,6 +2,9 @@
 <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
     <ul class="nav nav-bordered nav-stacked">
         <li class="nav-header">Navigation</li>
+        <li>
+            <p>testing</p>
+        </li>
         <!-- {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/free/" title="Free Digital Marketing Tools">Free Tools</a>
         </li> -->
@@ -42,8 +45,12 @@
                     <!-- {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/free/" title="Free Digital Marketing Tools">Free Tools</a>
                     </li> -->
-                    {% if page.url contains 'reviews' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
+                        {% if page.url contains 'reviews' %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                    <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
                     </li>
                     <!-- {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
@@ -54,7 +61,15 @@
                     <!-- {% if page.url contains 'articles' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/articles/" title="Digital Marketing Blog">Blog</a>
                     </li> -->
-                    {% if page.url contains 'contact' %}<li class="active">{% else %}<li>{% endif %}
+                    <!-- <li>
+                                Call <a href="tel:+441793384171" title="Call Digital Marketing Specialist" onClick="ga('send', 'event', 'contact', 'phone');">
+                                    <span id="website-phone-number"itemprop="telephone">
+                                        01793 384 171
+                                    </span>
+                                </a>
+                        </li> -->
+
+                        {% if page.url contains 'contact' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/contact/" title="Contact">
                             <button class="btn btn-info" style="line-height: 26px; color:#1C2B3A;">Contact</button>
                         </a>

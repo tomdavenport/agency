@@ -22,13 +22,13 @@ What people like you are saying about Digital Marketing Specialist. [Contact us]
 
     <a class="visible-xs-block" href="https://business.google.com/u/1/b/106924465956294708487/reviews/l/05408200928902885690?service=gmbl&c=https://business.google.com/manage/u/1/%3Fhl=en%26_ga=1.191318191.426866955.1426592006%23/list&pageId=106924465956294708487&hl=en" title="Reviews for Digital Marketing Specialist">See all our customer reviews</a>
 
-    <span class="lead text-muted hidden-xs">7 reviews</span>
+    <span class="lead text-muted hidden-xs">10 reviews</span>
 
 </p>
 
 <div class="hidden-xs">
 
-<h3>Complete marketing system</h3>
+<h3>Lead Generation</h3>
 
 <!-- Ellis Recruitment -->
 

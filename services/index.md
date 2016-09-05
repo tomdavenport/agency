@@ -1,8 +1,8 @@
 ---
 layout: service
-title: Google Adwords Marketing System
-description: We help you master successful Google advertising. Reach prospects in the moment they need you most, on the most powerful ad platform in the world.
-cta: Setup Now
+title: Digital Marketing Services
+description: Improve your website and online business growth with a powerful 3-step system that guarantees to grow your online revenue.
+cta: Start Now
 
 price 1: £250
 tier1: Start up your digital marketing machine.

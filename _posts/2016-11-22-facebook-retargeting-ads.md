@@ -6,7 +6,8 @@ layout: blog
 
 ---
 
-<p class="lead">If someone leaves your website without buying, have you lost them forever? Retargeting is a new way to capture those visitors and extra sales, with a stunning impact on marketing ROI.</p>
+<p class="lead">If someone leaves your website without buying, have you lost them forever?</p>
+<p class="lead">Retargeting is a new way to capture those visitors and extra sales, with a stunning impact on marketing ROI.</p>
 
 We all work to get visitors on our website. Some buy, some give us their email... but most of the time those visitors close the tab and move on.
 
@@ -24,7 +25,7 @@ The conversion rate is spectacularly high compared to other channels. It turns o
 
 Retargeting puts your offer straight back in front of your warmest leads, for a low price, and turns lost traffic into a business asset rather than letting visitors disappear into thin air.
 
-### How we set it up a 'Facebook Retargeting Pixel'
+### How we set up a 'Facebook Retargeting Pixel'
 
 We're a digital marketing company who specialises in retargeting campaigns.
 
@@ -40,11 +41,13 @@ From there we can build any audience we want. We could build buckets for...
 
 What would you say to these people if they left your site? That's your retargeting message.
 
-We could ask service page visitors if they still have that problem they wanted to solve.
+We could ask service page visitors if they still have that problem they wanted to solve...
 
-We could remind people that there are still items in their cart.
+We could remind people that there are still items in their cart...
 
-The important thing is that we now have a way to reach them, instead of losing them forever.
+The important thing is that we now have a way to reach them, instead of losing them forever. And in turn, we boost the ROI from every other marketing investment.
+
+[Learn about our Facebook marketing services here.](http://www.digitalmarketingspecialist.co.uk/services/facebook-marketing/ "Facebook Marketing Services")
 
 ### Example Facebook Retargeting Ad Funnel
 
@@ -54,8 +57,9 @@ Let's say you have a PR company developing awareness for a technology product. W
 
 1. PR company writes blog post for your website talking about a specific pain that this audience has, and how your product can solve it. It's so targeted that only your target audience would bother reading it.
 2. We advertise this blog post to the audience in Facebook. It doesn't look like an ad. Instead, it looks like useful valuable content.
-3. Visitors to this page are effectively declaring themselves to have this problem. Now we have a super targeted audience! We build a retargeting audience for visitors to this page, and usually exclude people who completed a purchase so we are only targeting people who still want to buy.
-4. We run a specific offer ad to this retargeting audience and call for them to act now. We make sure these people only see the ad for a limited time, maybe 7-14 days, and a maximum of 2-4 times. If you ever feel followed by an ad, it's because the marketers didn't set precautions like this.
+3. Visitors to this page are effectively declaring themselves to have this problem. Now we have a super targeted audience!
+4. We build a retargeting audience for visitors to this page, and usually exclude people who completed a purchase so we are only targeting people who still want to buy.
+5. We run a specific offer ad to this retargeting audience and call for them to act now. We make sure these people only see the ad for a limited time, maybe 7-14 days, and a maximum of 2-4 times. If you ever feel followed by an ad, it's because the marketers didn't set rules like this.
 
 We can even retarget people who interact with you on Facebook. From people who like and share your posts, to people who watch a certain length of your video... there's lots of ways to recapture people and get more from all your other marketing investments.
 
@@ -72,3 +76,5 @@ If you want retargeting on your website, act fast so you can start collecting vi
 Call us now to discuss how we can get started on your retargeting setup now!
 
 <a href="{{ site.url }}/contact/" title="Contact" role="button" class="btn btn-primary-outline m-b-md btn-lg">Book a free consultation</a>
+
+Or if you want to learn more, read about our [Facebook marketing services](http://www.digitalmarketingspecialist.co.uk/services/facebook-marketing/ "Facebook Marketing Services").

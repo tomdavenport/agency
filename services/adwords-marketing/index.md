@@ -3,6 +3,7 @@ layout: service
 title: Google Adwords Marketing System
 description: We help you master successful Google advertising. Reach prospects in the moment they need you most, on the most powerful ad platform in the world.
 cta: Setup Now
+valueProp: A stream of automated leads for your business. The perfect place to meet hot prospects at the moment they search for your service or product.
 
 price 1: £250
 tier1: Start up your digital marketing machine.
@@ -12,10 +13,10 @@ tier2: Improve your advertising ROI with monthly profit management.
 
 price 3: £99
 tier3: Add a new campaign anytime for a simple fixed fee.
+
+certification: content-marketing-certified.png
+certificationdescription: Content Marketing Specialist certified badge
 ---
-
-<p class="lead">A stream of automated leads for your business. The perfect place to meet hot prospects at the moment they search for your service or product.</p>
-
 ## Q: What do I get?
 
 ### Access to experienced team
@@ -49,8 +50,3 @@ We offer a straightforward fixed fee for trial campaigns.
 - Monthly Management: £250/month
 
 As you grow, expand with new campaigns for your services and products starting at £99 per campaign. All prices exclude VAT.
-
-<div class="text-center"><a href="{{ page.url }}buy/" title="Contact" role="button" class="btn btn-success m-b-md btn-lg m-t hidden-x">Buy Now <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
-<h2>Got more questions or want something else?
-</h2>
-</div>

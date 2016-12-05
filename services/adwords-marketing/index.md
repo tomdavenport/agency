@@ -5,7 +5,7 @@ description: We help you master successful Google advertising. Reach prospects i
 cta: Setup Now
 valueProp: A stream of automated leads for your business. The perfect place to meet hot prospects at the moment they search for your service or product.
 
-price 1: £250
+price1: £250
 tier1: Start up your digital marketing machine.
 
 price2: £250/month

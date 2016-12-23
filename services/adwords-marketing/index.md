@@ -1,9 +1,31 @@
 ---
 layout: service
 title: Google Adwords Marketing System
-description: We help you master successful Google advertising. Reach prospects in the moment they need you most, on the most powerful ad platform in the world.
+description: A stream of automated leads for your business. Reach prospects the moment they search for your service or product, on the most powerful ad platform in the world.
+
+service: Google Adwords
+
+benefit1: Increase traffic
+benefit2:
+benefit3:
+
 cta: Setup Now
-valueProp: A stream of automated leads for your business. The perfect place to meet hot prospects at the moment they search for your service or product.
+
+testimonial1:
+testimonial2:
+
+feature1:
+feature2:
+feature3:
+feature4:
+
+cta2:
+
+clientBanner:
+
+certification: content-marketing-certified.png
+certificationdescription: Content Marketing Specialist certified badge
+
 
 price1: £250
 tier1: Start up your digital marketing machine.
@@ -14,8 +36,6 @@ tier2: Improve your advertising ROI with monthly profit management.
 price 3: £99
 tier3: Add a new campaign anytime for a simple fixed fee.
 
-certification: content-marketing-certified.png
-certificationdescription: Content Marketing Specialist certified badge
 ---
 ## Q: What do I get?
 

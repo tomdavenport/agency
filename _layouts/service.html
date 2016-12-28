@@ -2,7 +2,7 @@
 <html lang="en">
 {% include header.html %} {% include nav.html %}
 <!-- Pull service data -->
-        {% assign service = site.data.services[page.service] %}
+{% assign service = site.data.services[page.service] %}
 <!-- Heading -->
 <div class="block text-center m-t p-b">
     <h1 class="block-title">{{ page.title }}</h1>
@@ -64,21 +64,21 @@
 <!--  -->
 <div class="block block-bordered">
     <div class="row text-center">
+        {% for company in site.testimonials limit:2 %}
         <div class="col-sm-5 col-sm-offset-1">
             <blockquote class="pull-quote">
-                <img class="img-circle" src="../../assets/img/avatar-mdo.png">
-                <p>
-                    “They need to stop sleeping on me and get some understanding about this here game I spit!”
-                </p>
+                <img class="img-circle" src="{{ company.headshotPhoto }}">
+                <p>{{ company.shortQuote }}</p>
                 <span class="icon icon-star" style="color: #F0B73F;"></span>
                 <span class="icon icon-star" style="color: #F0B73F;"></span>
                 <span class="icon icon-star" style="color: #F0B73F;"></span>
                 <span class="icon icon-star" style="color: #F0B73F;"></span>
                 <span class="icon icon-star" style="color: #F0B73F;"></span>
-                <cite>Mark Otto, Huge Nerd</cite>
+                <cite>{{ company.name }}, {{ company.title }}</cite>
             </blockquote>
         </div>
-        <div class="col-md-5">
+        {% endfor %}
+        <!-- <div class="col-md-5">
             <blockquote class="pull-quote">
                 <img class="img-circle" src="../../assets/img/avatar-mdo.png">
                 <p>
@@ -91,7 +91,7 @@
                 <span class="icon icon-star" style="color: #F0B73F;"></span>
                 <cite>Mark Otto, Huge Nerd</cite>
             </blockquote>
-        </div>
+        </div> -->
     </div>
 </div>
 <!-- Benefits -->
@@ -205,7 +205,7 @@
                 <h3 class="m-t-0">Fully qualified digital marketing speciualists available to you today.</h3>
                 <p class="lead m-b-md text-muted">Other digital agencies spread themselves across web design, development and marketing, and usually in that order!.</p>
                 <p>We focus on digital marketing, and little else. If you need heart surgery, you don’t go to a GP, you go to a specialist. Marketing is the same</p>
-                <button class="btn btn-default btn-outline">
+                <button class="btn btn-primary">
                     Meet our team
                 </button>
             </div>
@@ -213,13 +213,14 @@
     </div>
 </div>
 <!-- Testsimonial -->
-<div class="block block-inverse p-lg" style="background-image: url({{ site.url }}/img/testimonial-placeholder.jpg);">
+<div class="block block-inverse p-lg" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('http://1.bp.blogspot.com/-HOqwA7TFaKs/VTEGJGnVh4I/AAAAAAAAAFA/wmevGwLImVU/s1600/iwoca%2Bpic.jpg');
+    " alt="">
     <div class="row">
         <div class="col-sm-6 col-sm-offset-6 p-x-lg">
-            <h6>Certified Specialists?</h6>
-            <p class="lead">"Now I have a system for my business which brings in qualified leads without me having to lift a finger."</p>
+            <h6 class="text-muted">Testimonial</h6>
+            <p class="lead m-t-md">"Now I have a system for my business which brings in qualified leads without me having to lift a finger."</p>
             <p>Natalie Ellis, Director, Ellis Recruitment</p>
-            <button class="btn btn-default btn-outline">
+            <button class="btn btn-primary">
                 Read the case study
             </button>
         </div>

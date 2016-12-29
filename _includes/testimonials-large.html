@@ -1,4 +1,4 @@
-<div class="block block-secondary p-t-lg">
+<div class="block block-secondary">
 
     <div class="container">
 
@@ -8,44 +8,24 @@
 
         <!-- Ellis Recruitment -->
 <!-- <div class="container"> -->
-    <div class="row">
+{% for clients in site.clients limit: 2 %}
+    <div class="row m-y-b">
         <div class="col-sm-6 p-b-md">
             <div class="row">
-                <img class="img-circle center-block" alt="Natalie Ellis" src="{{ site.url }}/img/clients/natalie-ellis.png">
+                <img class="img-circle center-block" alt="{{ clients.name }}" src="{{ site.url }}/img/clients/{{ clients.headshot }}" style="width:140px; border-radius: 70px;">
             </div>
             <div class="row">
-                <img class="center-block m-b-md" src="{{ site.url }}/img/clients/ellis-recruitment.png" alt="Ellis Recruitment logo">
+                <img class="center-block m-b-md" src="{{ site.url }}/img/clients/{{ clients.companyLogo }}" alt="{{ clients.Company }} logo" style="height: 80px; width: 300px;">
             </div>
         </div>
         <div class="col-sm-6">
             <!-- <h6 class="text-muted text-uppercase">Ellis Recruitment</h6> -->
-            <p class="m-t-0 m-b-md" style="font-size: 28px; line-height: 1.2;">“Now I have a system for my business which generates incoming leads without me having to lift a finger.”</p>
-            <p class="m-b-md text-muted">Natalie Ellis, Director, Ellis Recruitment</p>
-            <a href="{{ site.url }}/reviews/" title="Reviews" role="button" class="btn btn-primary-outline m-b-md btn-lg">Learn More</a>
+            <p class="m-t-0 m-b-md lead">“{{ clients.shortQuote }}”</p>
+            <p class="m-b-md text-muted">{{ clients.name }}, {{ clients.title }}, {{clients.company }}</p>
+            <a href="{{ site.url }}/case-study/{{ clients.company | slugify }}" title="{{ clients.company }} Marketing Case Study" role="button" class="btn btn-primary-outline m-b-md btn-lg">Learn More</a>
         </div>
     </div>
-<!-- </div> -->
-
-        <div class="row m-t- m-b-md"><hr></div>
-
-        <!-- iwoca -->
-<!-- <div class="container"> -->
-    <div class="row">
-        <div class="col-sm-6 p-b-md">
-            <div class="row">
-                <img class="img-circle center-block" alt="Pierce Glennie" src="{{ site.url }}/img/clients/pierce-glennie.png">
-            </div>
-            <div class="row">
-                <img class="center-block m-b-md" src="{{ site.url }}/img/clients/iwoca.png" alt="iwoca logo">
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <!-- <h6 class="text-muted text-uppercase">iwoca</h6> -->
-            <p class="m-t-0 m-b-md" style="font-size: 28px; line-height: 1.2;">"We now have a much broader set of content and have started seeing positive results in search rankings.”</p>
-            <p class="m-b-md text-muted">Pierce Glennie, Chief Marketing Officer, iwoca</p>
-            <a href="{{ site.url }}/reviews/" title="Reviews" role="button" class="btn btn-primary-outline btn-lg">Learn More</a>
-        </div>
-    </div>
+{% endfor %}
 <!-- </div> -->
 
 

@@ -52,7 +52,7 @@
         {% for clients in site.clients limit:2 %}
         <div class="col-sm-6">
             <blockquote class="pull-quote">
-                <img class="img-circle" src="{{ clients.headshotPhoto }}">
+                <img class="img-circle" src="{{ clients.headshot }}">
                 <p>{{ clients.shortQuote }}</p>
                 {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %}
                 <cite>{{ clients.name }}, {{ clients.title }}</cite>
@@ -237,57 +237,25 @@
             </div>
         </div>
         <div class="row">
+            {% for tier in page.prices %}
             <div class="col-sm-4 p-x m-b-lg">
                 <div class="p-x">
                     <h6 class="text-muted text-uppercase m-b">Startup</h6>
                     <!-- <img class="m-b" src="assets/img/startup-15.svg"> -->
-                    <h1 class="p-t-0">{{ page.price1 }}</h1>
+                    <h1 class="p-t-0">{{ tier.price }}</h1>
                     <p class="small text-muted">+ VAT</p>
-                    <p>{{ page.tier1 }}</p>
+                    <p>{{ tier.description }}</p>
                 </div>
                 <ul class="list-unstyled list-bordered text-left m-y-md">
-                    <li class="p-y"><strong>10k</strong> monthly requests</li>
-                    <li class="p-y"><strong>9am-5pm</strong> technical supprt</li>
-                    <li class="p-y"><strong>Public</strong> API access</li>
+                    <li class="p-y">{{ tier.feature1 }}</li>
+                    <li class="p-y">{{ tier.feature2 }}</li>
+                    <li class="p-y">{{ tier.feature3 }}</li>
                 </ul>
                 <button class="btn btn-lg btn-primary btn-block">
-                    Start <span class="visible-lg-inline">a personal account</span>
+                    Start <span class="visible-lg-inline">Start now</span>
                 </button>
             </div>
-            <div class="col-sm-4 p-x m-b-lg">
-                <div class="p-x">
-                    <h6 class="text-muted text-uppercase m-b">Small Business</h6>
-                    <!-- <img class="m-b" src="assets/img/startup-16.svg"> -->
-                    <h1>£600</h1>
-                    <p class="small text-muted">+ VAT</p>
-                    <p>{{ page.tier2 }}</p>
-                </div>
-                <ul class="list-unstyled list-bordered text-left m-y-md">
-                    <li class="p-y"><strong>100k</strong> monthly requests</li>
-                    <li class="p-y"><strong>24/7</strong> technical supprt</li>
-                    <li class="p-y"><strong>Public</strong> API access</li>
-                </ul>
-                <button class="btn btn-lg btn-primary btn-block">
-                    Start <span class="visible-lg-inline">a business account</span>
-                </button>
-            </div>
-            <div class="col-sm-4 p-x m-b-lg">
-                <div class="p-x">
-                    <h6 class="text-muted text-uppercase m-b">Corporate</h6>
-                    <!-- <img class="m-b" src="assets/img/startup-17.svg"> -->
-                    <h1>£1,800</h1>
-                    <p class="small text-muted">+ VAT</p>
-                    <p>{{ page.tier3 }}</p>
-                </div>
-                <ul class="list-unstyled list-bordered text-left m-y-md">
-                    <li class="p-y"><strong>Unlimited</strong> monthly requests</li>
-                    <li class="p-y"><strong>24/7</strong> technical supprt</li>
-                    <li class="p-y"><strong>Public & Private</strong> API access</li>
-                </ul>
-                <button class="btn btn-lg btn-primary btn-block">
-                    Start <span class="visible-lg-inline">a corporate account</span>
-                </button>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>

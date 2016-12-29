@@ -23,11 +23,6 @@ cta: Setup Now
 testimonial1:
 testimonial2:
 
-feature1:
-feature2:
-feature3:
-feature4:
-
 cta2:
 
 clientBanner:
@@ -36,14 +31,25 @@ certification: content-marketing-certified.png
 certificationdescription: Content Marketing Specialist certified badge
 
 
-price1: £250
-tier1: Start up your digital marketing machine.
-
-price2: £250/month
-tier2: Improve your advertising ROI with monthly profit management.
-
-price 3: £99
-tier3: Add a new campaign anytime for a simple fixed fee.
+prices:
+    - tier: 1
+      price: £250
+      description: The perfect starter package if you want to test the water.
+      feature1: Setup
+      feature2: false
+      feature3: false
+    - tier: 2
+      price: £600
+      description: Improve your advertising ROI with monthly profit management.
+      feature1: true
+      feature2: true
+      feature3: false
+    - tier: 3
+      price: £1,800
+      description: Add a new campaign anytime for a simple fixed fee.
+      feature1: true
+      feature2: true
+      feature3: true
 
 ---
 ## Q: What do I get?

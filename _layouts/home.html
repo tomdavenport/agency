@@ -3,17 +3,19 @@
 {% include header.html %} {% include nav.html %}
 <div class="block block-inverse block-fill-height app-header">
     <img class="app-graph" src="{{ site.url }}/img/growth.svg" alt="Digital Growth">
-    <div class="block-xs-middle p-b-lg">
+    <div class="block-xs-bottom p-b-lg">
         <div class="container">
             <div class="row">
                 <div class="col-sm-10 col-md-8">
-                    <h1><img src="{{ site.url }}/img/logo/digital-marketing-specialist-white.svg" style="width: 80%;" alt="Digital Marketing Specialist"></h1>
+                    <h1>
+                        <img src="{{ site.url }}/img/logo/digital-marketing-specialist-white.svg" style="width: 80%;" alt="Digital Marketing Specialist">
+                    </h1>
                     <!-- <h1 class="block-title m-b-sm">{{ page.heading }}</h1> -->
                     <p class="lead m-b-md text-muted">{{ page.subheading }}</p>
                     <a href="http://www.digitalmarketingspecialist.co.uk/contact/" title="Contact">
                         <button class="btn btn-info btn-lg m-r"><span style="color:#1C2B3A">Call us now</span></button>
                     </a>
-                    <a href="http://www.digitalmarketingspecialist.co.uk/reviews/" title="Reviews">
+                    <a href="{{ site.url }}/reviews/" title="Reviews">
                         <button class="btn btn-default btn-lg btn-outline hidden-xs">Learn More</button>
                     </a>
                     <!-- <button class="btn btn-default btn-lg btn-outline">Learn more</button> -->
@@ -22,6 +24,7 @@
         </div>
     </div>
 </div>
+{% include client-banner.html %}
 {% include testimonials-large.html %}
 <!-- {% include benefits.html %} -->
 {% include footer.html %}

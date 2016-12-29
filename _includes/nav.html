@@ -49,9 +49,9 @@
                         {% endif %}
                     <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
                     </li>
-                    <!-- {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
+                    {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
-                    </li> -->
+                    </li>
                     {% if page.url contains 'case-study' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/case-study/" title="Digital Marketing Case Studies">Case Studies</a>
                     </li>
@@ -66,13 +66,14 @@
                                 </a>
                         </li> -->
 
-                        {% if page.url contains 'contact' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/contact/" title="Contact">
+                    {% if page.url contains 'contact' %}
+                    <li class="active">{% else %}<li>
+                    {% endif %}
+                        <a href="{{site.url}}/contact/" title="Contact" class="p-y-0">
                             <button class="btn btn-info" style="line-height: 26px; color:#1C2B3A;">Contact</button>
                         </a>
                     </li>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
         </div>
     </nav>

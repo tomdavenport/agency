@@ -2,7 +2,7 @@
 <html lang="en">
 {% include header.html %} {% include nav.html %}
 <!-- Pull service data -->
-{% assign service = site.data.services[page.service] %}
+<!-- {% assign service = site.data.services[page.service] %} -->
 <!-- Heading -->
 <div class="block text-center m-t p-b">
     <h1 class="block-title">{{ page.title }}</h1>
@@ -10,26 +10,24 @@
 <!-- Value Proposition -->
 <div class="block p-y-md">
     <div class="row m-b">
-        <div class="col-md-5 col-md-offset-1 p-r">
-            <a hr class="m-y-0" ef="#"><img src="{{site.url}}/img/service/google-adwords.jpg" alt="Digital Marketing Specialist at the top of Google" class="img-responsive"></a>
+        <div class="col-md-5 col-md-offset-1">
+            <a href="#">
+                <img src="{{ site.url }}/img/service/{{ page.service | slugify }}.svg" alt="{{ page.title }}" class="img-responsive center-block" style="height: 400px;">
+            </a>
         </div>
         <div class="col-md-5 p-l ">
             <p class="lead">
-                {{ service.valueProp }}
+                {{ page.valueProp }}
             </p>
             <!-- Callout -->
             <div class="callout">
                 <div class="callout-content">
                     <ul class="iconlist">
+                        {% for item in page.benefit %}
                         <li>
-                            <span class="icon icon-check" style="color: green"></span> {{ service.benefit1 }}
+                            <span class="icon icon-check" style="color: green"></span> {{ item }}
                         </li>
-                        <li>
-                            <span class="icon icon-check" style="color: green"></span> {{ service.benefit2 }}
-                        </li>
-                        <li>
-                            <span class="icon icon-check" style="color: green"></span> {{ service.benefit3 }}
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <div class="callout-secondary block-inverse ">
@@ -39,46 +37,31 @@
                 </div>
             </div>
             <!-- Who is this for? -->
-            <!-- <h3 class="text-muted">Who is this for?</h3>
+            <h4 class="text-muted">Our {{ page.service }} is designed for:</h4>
             <ul class="text-muted">
-                <li>Marketing managers</li>
-                <li>Entrepreneurs</li>
-                <li>Online shop owners</li>
-            </ul> -->
+                {% for item in page.audience %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
-    <!-- Callout -->
-    <!--     <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-            <div class="callout">
-                <div class="callout-content">
-                    <strong>Get started now.</strong> Learn more about <span style="text-transform: lowercase">{{page.title}}</span>.
-                </div>
-                <div class="callout-secondary block-inverse ">
-                    <button class="btn btn-sm btn-info">Get started</button>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </div>
-<!--  -->
+<!-- Testimonials -->
 <div class="block block-bordered">
     <div class="row text-center">
-        {% for company in site.testimonials limit:2 %}
-        <div class="col-sm-5 col-sm-offset-1">
+        {% for clients in site.clients limit:2 %}
+        <div class="col-sm-6">
             <blockquote class="pull-quote">
-                <img class="img-circle" src="{{ company.headshotPhoto }}">
-                <p>{{ company.shortQuote }}</p>
-                <span class="icon icon-star" style="color: #F0B73F;"></span>
-                <span class="icon icon-star" style="color: #F0B73F;"></span>
-                <span class="icon icon-star" style="color: #F0B73F;"></span>
-                <span class="icon icon-star" style="color: #F0B73F;"></span>
-                <span class="icon icon-star" style="color: #F0B73F;"></span>
-                <cite>{{ company.name }}, {{ company.title }}</cite>
+                <img class="img-circle" src="{{ clients.headshotPhoto }}">
+                <p>{{ clients.shortQuote }}</p>
+                {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %}
+                <cite>{{ clients.name }}, {{ clients.title }}</cite>
             </blockquote>
         </div>
         {% endfor %}
-        <!-- <div class="col-md-5">
+    </div>
+</div>
+<!-- <div class="col-md-5">
             <blockquote class="pull-quote">
                 <img class="img-circle" src="../../assets/img/avatar-mdo.png">
                 <p>
@@ -91,11 +74,11 @@
                 <span class="icon icon-star" style="color: #F0B73F;"></span>
                 <cite>Mark Otto, Huge Nerd</cite>
             </blockquote>
-        </div> -->
+        </div>
     </div>
-</div>
+</div> -->
 <!-- Benefits -->
-<div class="block block-bordered p-y-md p-x-lg">
+<!-- <div <!-- <!-- class="block block-bordered p-y-md p-x-lg">
     <div class="row">
         <div class="col-sm-6">
             <ul class="featured-list featured-list-bordered">
@@ -141,7 +124,7 @@
                 </li>
             </ul>
         </div>
-        <!-- Callout -->
+
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 ">
                 <div class="callout">
@@ -155,15 +138,22 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Client banner -->
-<div class="block app-ribbon p-y-lg">
-    <div class="container text-center">
-        <img src="assets/img/startup-4.svg">
-        <img src="assets/img/startup-5.svg">
-        <img src="assets/img/startup-6.svg">
-        <img src="assets/img/startup-7.svg">
-        <img src="assets/img/startup-8.svg">
+{% include client-banner.html %}
+<!-- Callout -->
+<div class="block">
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="callout">
+                <div class="callout-content">
+                    <strong>Get started now.</strong> Learn more about <span style="text-transform: lowercase">{{page.title}}</span>.
+                </div>
+                <div class="callout-secondary block-inverse ">
+                    <button class="btn btn-sm btn-info">Get started</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!-- Demonstrate Value -->

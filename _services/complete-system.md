@@ -2,7 +2,7 @@
 title: The Complete Digital Marketing System
 description:
 metaimage:
-layout: default
+layout: service
 
 ---
 

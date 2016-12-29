@@ -1,13 +1,22 @@
 ---
+collection: services
 layout: service
-title: Google Adwords Marketing System
+title: Google Adwords Marketing
 description: A stream of automated leads for your business. Reach prospects the moment they search for your service or product, on the most powerful ad platform in the world.
+
+valueProp: A stream of automated leads for your business. Reach prospects the moment they search for your service or product, on the most powerful ad platform in the world.
 
 service: Google Adwords
 
-benefit1: Increase traffic
-benefit2:
-benefit3:
+benefit:
+- Increase traffic
+- Grow conersion rate
+- Do moar stuff!!
+
+audience:
+- Marketing Managers
+- Entrepreneurs
+- Shop owners
 
 cta: Setup Now
 

@@ -40,7 +40,10 @@ exclude: [node_modules, docs, .gitignore, Gemfile, Gemfile.lock, gulpfile.js, pa
 timezone: Europe/London
 
 collections:
-  - testimonials
-  - certifications
-  - services
-  - clients
+  testimonials:
+  certifications:
+  services:
+    layout: service
+    output: true
+    permalink: /services/:path/
+  clients:

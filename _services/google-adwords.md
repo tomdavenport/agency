@@ -2,54 +2,44 @@
 collection: services
 layout: service
 title: Google Adwords Marketing
-description: A stream of automated leads for your business. Reach prospects the moment they search for your service or product, on the most powerful ad platform in the world.
+description: Get better quality leads with high-precision digital marketing that puts you in front of customers who are searching for your product or service.
 
-valueProp: A stream of automated leads for your business. Reach prospects the moment they search for your service or product, on the most powerful ad platform in the world.
+valueProp: Get better quality leads with the only digital marketing that puts you in front of customers who are searching for your product or service.
 
 service: Google Adwords
 
 benefit:
-- Increase traffic
-- Grow conersion rate
-- Do moar stuff!!
+- Increase website traffic
+- Appear high in Google
+- Clear ROI reporting
 
 audience:
 - Marketing Managers
 - Entrepreneurs
 - Shop owners
 
-cta: Setup Now
-
-testimonial1:
-testimonial2:
-
-cta2:
-
-clientBanner:
-
-certification: content-marketing-certified.png
-certificationdescription: Content Marketing Specialist certified badge
-
+certification: Customer Acquisition Certified
+certificationDescription: Content Marketing Specialist certified badge
 
 prices:
-    - tier: 1
-      price: £250
-      description: The perfect starter package if you want to test the water.
-      feature1: Setup
-      feature2: false
-      feature3: false
-    - tier: 2
+    - tier: Startup
+      price: £300
+      description: The perfect starter package to test the water with Google Adwords.
+      feature1: Audience research
+      feature2: Your first campaign
+      feature3: Monthly reports
+    - tier: Small-Medium Business
       price: £600
-      description: Improve your advertising ROI with monthly profit management.
-      feature1: true
-      feature2: true
-      feature3: false
-    - tier: 3
+      description: Intensive profit management to get a greater ROI from your  budget.
+      feature1: Full setup
+      feature2: 24/7 reporting
+      feature3: Regular meetings
+    - tier: Corporate
       price: £1,800
-      description: Add a new campaign anytime for a simple fixed fee.
-      feature1: true
-      feature2: true
-      feature3: true
+      description: For large-scale campaigns with big ambitions and a PPC budget to match.
+      feature1: High-speed testing
+      feature2: Competitor research
+      feature3: Unlimited 24/7 support
 
 ---
 ## Q: What do I get?

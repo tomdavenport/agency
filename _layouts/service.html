@@ -4,11 +4,11 @@
 <!-- Pull service data -->
 <!-- {% assign service = site.data.services[page.service] %} -->
 <!-- Heading -->
-<div class="block text-center m-t p-b">
+<div class="block text-center  m-t p-b">
     <h1 class="block-title">{{ page.title }}</h1>
 </div>
 <!-- Value Proposition -->
-<div class="block p-y-md">
+<div class="block p-y-md ">
     <div class="row m-b">
         <div class="col-md-5 col-md-offset-1">
             <a href="#">
@@ -32,32 +32,34 @@
                 </div>
                 <div class="callout-secondary block-inverse ">
                     <a href="#pricing" title="{{ page.title }} Pricing">
-                        <button class="btn btn-sm btn-info">Order now</button>
+                        <button class="btn btn-sm btn-primary">Order now</button>
                     </a>
                 </div>
             </div>
             <!-- Who is this for? -->
-            <h4 class="text-muted">Our {{ page.service }} is designed for:</h4>
+            <!-- <h6 class="text-muted">Our {{ page.service }} service is designed for:</h6>
             <ul class="text-muted">
                 {% for item in page.audience %}
                 <li>{{ item }}</li>
                 {% endfor %}
-            </ul>
+            </ul> -->
         </div>
     </div>
 </div>
 <!-- Testimonials -->
-<div class="block block-bordered">
+<div class="block grey-background p-y-md">
     <div class="row text-center">
         {% for clients in site.clients limit:2 %}
-        <div class="col-sm-6">
-            <blockquote class="pull-quote">
-                <img class="img-circle" src="{{ clients.headshot }}">
-                <p>{{ clients.shortQuote }}</p>
-                {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %} {% include snippet/star.html %}
-                <cite>{{ clients.name }}, {{ clients.title }}</cite>
-            </blockquote>
-        </div>
+                <div class="col-sm-6">
+                    <blockquote class="pull-quote">
+                        <img class="img-circle m-b" src="{{ clients.headshot }}" alt="{{ clients.name }} portrait">
+                        <br>
+                        {% include snippet/5star.html %}
+                        <p class="m-y">{{ clients.shortQuote }}</p>
+                        <cite>{{ clients.name }}, {{ clients.title }}</cite>
+                        <!-- <img src="{{ site.url }}/img/clients/{{ clients.companyLogo }}" alt="{{ clients.company }} logo"> -->
+                    </blockquote>
+                </div>
         {% endfor %}
     </div>
 </div>
@@ -140,9 +142,9 @@
     </div>
 </div> -->
 <!-- Client banner -->
-{% include client-banner.html %}
+<!-- {% include client-banner.html %} -->
 <!-- Callout -->
-<div class="block">
+<!-- 
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <div class="callout">
@@ -154,15 +156,15 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </div> -->
+
 <!-- Demonstrate Value -->
 <!-- Reporting -->
 <div class="block block-secondary app-iphone-block p-b-0">
     <div class="container">
         <div class="row app-align-center">
             <div class="col-sm-5 hidden-xs">
-                <img class="app-iphone" src="{{site.url}}/img/phone-analytics.jpg" alt="Mobile marketing analytics" style="width: 100%;">
+                <img class="app-iphone" src="{{site.url}}/img/phone-analytics.png" alt="Mobile marketing analytics" style="width: 100%;">
             </div>
             <div class="col-sm-6 col-sm-offset-1">
                 <h6 class="text-muted text-uppercase">Clear  Reports</h6>
@@ -171,30 +173,29 @@
                 <div class="row hidden-sm">
                     <div class="col-sm-6 m-b-md">
                         <h6 class="m-y-0 p-b-md">24/7 Reporting</h6>
-                        <p>See your dashboard on any screen, so your results are available any time, any day, plus monthly director reports.<a href="#" class="text-primary">Learn more.</a></p>
+                        <p>See your dashboard on any screen, so your results are available any time, any day, plus monthly director reports.<!--  <a href="#" class="text-primary">Learn more.</a> --></p>
                     </div>
                     <div class="col-sm-6">
                         <h6 class="m-y-0 p-b-md">Complete ROI Data</h6>
-                        <p>We show results in context of your other digital marketing activity, so you know how it compares to other online activity. <a href="#" class="text-primary">Learn more</a>.</p>
+                        <p>We show results in context of your other digital marketing activity, so you know how it compares to other online activity.<!--  <a href="#" class="text-primary">Learn more.</a> --></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Team -->
+<!-- Certification -->
 <div class="block block-inverse block-secondary app-code-block">
     <img class="app-graph" src="{{ site.url }}/img/growth.svg" alt="Digital Growth">
     <div class="container">
         <div class="row app-align-center">
             <div class="col-sm-5 col-sm-push-7">
-                <img class="app-iphone" src="{{site.url}}/img/icon/customer-acquisition-certified.png" alt="Google Adwords Certified" style="width: 100%;">
+                <img class="app-iphone" src="{{site.url}}/img/icon/{{ page.certification | slugify }}.png" alt="{{ page.certificationDescription }} Certified" style="width: 100%;">
             </div>
             <div class="col-sm-6 col-sm-pull-5">
                 <h6 class="text-muted text-uppercase">Certified specialists</h6>
-                <h3 class="m-t-0">Fully qualified digital marketing speciualists available to you today.</h3>
-                <p class="lead m-b-md text-muted">Other digital agencies spread themselves across web design, development and marketing, and usually in that order!.</p>
-                <p>We focus on digital marketing, and little else. If you need heart surgery, you don’t go to a GP, you go to a specialist. Marketing is the same</p>
+                <h3 class="m-t-0">Fully qualified digital marketing specialists available to you today.</h3>
+                <p class="lead m-b-md text-muted">Save yourself years of training and recruitment. <strong>Hire a specialist</strong> who with the qualifications and experience to make your campaign work from day one.</p>
                 <button class="btn btn-primary">
                     Meet our team
                 </button>
@@ -202,8 +203,8 @@
         </div>
     </div>
 </div>
-<!-- Testsimonial -->
-<div class="block block-inverse p-lg" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('http://1.bp.blogspot.com/-HOqwA7TFaKs/VTEGJGnVh4I/AAAAAAAAAFA/wmevGwLImVU/s1600/iwoca%2Bpic.jpg');
+<!-- Testimonial -->
+<!-- <div class="block block-inverse p-lg" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('http://1.bp.blogspot.com/-HOqwA7TFaKs/VTEGJGnVh4I/AAAAAAAAAFA/wmevGwLImVU/s1600/iwoca%2Bpic.jpg');
     " alt="">
     <div class="row">
         <div class="col-sm-6 col-sm-offset-6 p-x-lg">
@@ -215,7 +216,7 @@
             </button>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Content -->
 <div class="block p-y-md">
     <div class="container">
@@ -232,27 +233,27 @@
     <div class="container text-center">
         <div class="row p-t-md">
             <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-                <h6 class="text-muted text-uppercase">Business Talk</h6>
-                <h3 class="m-t-0">No plans. We just bump your plan whenever you need it.</h3>
+                <h6 class="text-muted text-uppercase">Pricing</h6>
+                <h3 class="m-t-0">Our flexible, proven marketing packages have every business covered.</h3>
             </div>
         </div>
         <div class="row">
             {% for tier in page.prices %}
             <div class="col-sm-4 p-x m-b-lg">
                 <div class="p-x">
-                    <h6 class="text-muted text-uppercase m-b">Startup</h6>
+                    <h6 class="text-muted text-uppercase m-b">{{ tier.tier }}</h6>
                     <!-- <img class="m-b" src="assets/img/startup-15.svg"> -->
                     <h1 class="p-t-0">{{ tier.price }}</h1>
-                    <p class="small text-muted">+ VAT</p>
+                    <p class="small text-muted">+ VAT / month</p>
                     <p>{{ tier.description }}</p>
                 </div>
                 <ul class="list-unstyled list-bordered text-left m-y-md">
-                    <li class="p-y">{{ tier.feature1 }}</li>
-                    <li class="p-y">{{ tier.feature2 }}</li>
-                    <li class="p-y">{{ tier.feature3 }}</li>
+                    <li class="p-y"><span class="icon icon-check" style="color: green"></span> {{ tier.feature1 }}</li>
+                    <li class="p-y"><span class="icon icon-check" style="color: green"></span> {{ tier.feature2 }}</li>
+                    <li class="p-y"><span class="icon icon-check" style="color: green"></span> {{ tier.feature3 }}</li>
                 </ul>
-                <button class="btn btn-lg btn-primary btn-block">
-                    Start <span class="visible-lg-inline">Start now</span>
+                <button class="btn btn-lg btn-success btn-block">
+                <span class="visible-lg-inline">Start now</span>
                 </button>
             </div>
             {% endfor %}
@@ -260,17 +261,17 @@
     </div>
 </div>
 <!-- Final Callout -->
-<div class="block">
+<div class="block p-y">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2 p-t">
             <div class="callout">
                 <div class="callout-content">
-                    <p><strong>Looking for a bespoke {{ page.title }}?</strong></p>
+                    <p><strong>Looking for a bespoke {{ page.title }} service?</strong></p>
                     <p><a href="{{ site.url }}/contact/" title="Book a free consultation">Contact us now</a> for a <strong>free</strong> consultation.</p>
                 </div>
                 <div class="callout-secondary block-inverse ">
                     <a href="{{ site.url }}/services/" title="Digital Marketing Services">
-                        <button class="btn btn-sm btn-primary btn-outline">Other services</button>
+                        <button class="btn btn-sm btn-primary btn-outline">Call now</button>
                     </a>
                 </div>
             </div>

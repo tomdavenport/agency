@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: landing-page
 title: Digital Marketing Case Studies
 description: How we help companies like yours to attract new clients, boost sales, and increase lifetime value with the latest digital marketing systems.
 center:

@@ -1,41 +1,25 @@
 <div class="block block-secondary">
-
     <div class="container">
-
         <div class="text-center m-b-lg">
-          <h6 class="text-muted text-uppercase ">Testimonials</h6>
+            <h6 class="text-muted text-uppercase ">Testimonials</h6>
         </div class="p-b">
-
-        <!-- Ellis Recruitment -->
-<!-- <div class="container"> -->
-{% for clients in site.clients limit: 2 %}
-    <div class="row m-y-b">
-        <div class="col-sm-6 p-b-md">
-            <div class="row">
-                <img class="img-circle center-block" alt="{{ clients.name }}" src="{{ site.url }}/img/clients/{{ clients.headshot }}" style="width:140px; border-radius: 70px;">
+        {% for clients in site.clients limit: 2 %} {% if page.homepage %}
+        <div class="row m-y-b">
+            <div class="col-sm-6 p-b-md">
+                <div class="row">
+                    <img class="img-circle center-block" alt="{{ clients.name }}" src="{{ site.url }}/img/clients/{{ clients.headshot }}" style="width:140px; border-radius: 70px;">
+                </div>
+                <div class="row">
+                    <img class="center-block m-b-md" src="{{ site.url }}/img/clients/{{ clients.companyLogo }}" alt="{{ clients.Company }} logo" style="height: 80px; width: 300px;">
+                </div>
             </div>
-            <div class="row">
-                <img class="center-block m-b-md" src="{{ site.url }}/img/clients/{{ clients.companyLogo }}" alt="{{ clients.Company }} logo" style="height: 80px; width: 300px;">
+            <div class="col-sm-6">
+                <!-- <h6 class="text-muted text-uppercase">Ellis Recruitment</h6> -->
+                <p class="m-t-0 m-b-md lead">“{{ clients.shortQuote }}”</p>
+                <p class="m-b-md text-muted">{{ clients.name }}, {{ clients.title }}, {{clients.company }}</p>
+                <a href="{{ site.url }}/case-study/{{ clients.company | slugify }}" title="{{ clients.company }} Marketing Case Study" role="button" class="btn btn-primary-outline m-b-md btn-lg">Learn More</a>
             </div>
         </div>
-        <div class="col-sm-6">
-            <!-- <h6 class="text-muted text-uppercase">Ellis Recruitment</h6> -->
-            <p class="m-t-0 m-b-md lead">“{{ clients.shortQuote }}”</p>
-            <p class="m-b-md text-muted">{{ clients.name }}, {{ clients.title }}, {{clients.company }}</p>
-            <a href="{{ site.url }}/case-study/{{ clients.company | slugify }}" title="{{ clients.company }} Marketing Case Study" role="button" class="btn btn-primary-outline m-b-md btn-lg">Learn More</a>
-        </div>
+        {% endif %} {% endfor %}
     </div>
-{% endfor %}
-<!-- </div> -->
-
-
-    </div>
-</div>
-
-<!-- CTA -->
-
-<!-- <div class="block block-inverse block-inverse-blue p-y text-center navbar-form"> -->
-  <!-- <div class="container"> -->
-   <!-- <h2 class="p-y-0 m-y-0">Banner content</h2> -->
-
 </div>

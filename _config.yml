@@ -42,8 +42,8 @@ timezone: Europe/London
 collections:
   testimonials:
   certifications:
-  services:
+  service:
     layout: service
     output: true
-    permalink: /services/:path/
+    permalink: /service/:path/
   clients:

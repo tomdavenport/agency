@@ -1,0 +1,15 @@
+<div class="block p-y-0">
+    <div class="container">
+        <div class="row">
+            <div class="{% include snippet/body-text-width.html %}">
+                {% if center.true %}
+                    <div class="text-center">
+                {% endif %}
+                {{ content }}
+                {% if center.true %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

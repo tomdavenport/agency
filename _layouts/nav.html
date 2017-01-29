@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- {% assign collection = service %} -->
 {% include header.html %} {% include nav.html %}
 <div class="block p-b-0">
     <div class="article container">
@@ -7,7 +8,7 @@
             <div class="text-center">
                 <h1>{{ page.title }}</h1>
                 <p class="lead">{{ page.description }}</p>
-                <div class="row">{% for service in site.services %}
+                <div class="row">{% for service in site.[page.collection] %}
                     <div class="col-md-4">
                         <div class="panel">
                             <div class="panel-body p-b-lg">
@@ -26,9 +27,7 @@
                     {% endfor %}
                 </div>
                 <div class="row {% include snippet/body-text-width.html %}">
-                    <div class="text-center">
-                        {{ content }}
-                    </div>
+                    {{ content }}
                 </div>
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2 p-t">

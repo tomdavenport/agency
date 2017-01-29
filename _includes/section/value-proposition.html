@@ -1,0 +1,39 @@
+<!-- Value Proposition -->
+<div class="block p-y-md ">
+    <div class="row m-b">
+        <div class="col-sm-5 col-sm-offset-1 hidden-xs hidden-sm">
+            <img src="{{ site.url }}/img/service/{{ page.service | slugify }}.svg" alt="{{ page.title }}" class="img-responsive center-block" style="height: 400px;">
+        </div>
+        <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-5 col-md-offset-0 p-x">
+            <p class="lead">
+                {{ page.valueProp }}
+            </p>
+        </div>
+        <!-- Callout -->
+        <div class="col-md-5 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12 p-x">
+            <div class="callout">
+                <div class="callout-content">
+                    <ul class="iconlist">
+                        {% for item in page.benefit %}
+                        <li>
+                            <span class="icon icon-check" style="color: green"></span> {{ item }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="callout-secondary block-inverse ">
+                    <a href="#pricing" title="{{ page.title }} Pricing">
+                        <button class="btn btn-sm btn-success">Order now</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Who is this for? -->
+            <!-- <h6 class="text-muted">Our {{ page.service }} service is designed for:</h6>
+            <ul class="text-muted">
+                {% for item in page.audience %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul> -->
+        </div>
+    </div>
+</div>

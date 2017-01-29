@@ -1,5 +1,5 @@
 <footer>
-    <!-- {% include section/client-banner.html %} -->
+    {% include section/client-banner.html %}
     <div class="block block-inverse app-footer yellow-top">
         <div class="container">
             <div class="row">
@@ -34,7 +34,7 @@
                         <!-- <li class="text-muted">Legal</li> -->
                         {% for item in site.service %}
                         <li class="text-muted">
-                            <a href="{{ site.url }}/services/{{ item.service | slugify }}/" title="{{ item.url }}">{{ item.service }}</a>
+                            <a href="{{ site.url }}/service/{{ item.service | slugify }}/" title="{{ item.url }}">{{ item.service }}</a>
                         </li>
                         {% endfor %}
                     </ul>

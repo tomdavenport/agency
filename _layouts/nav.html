@@ -12,13 +12,13 @@
                     <div class="col-md-4">
                         <div class="panel">
                             <div class="panel-body p-b-lg">
-                                <a href="{{ service.url }}">
+                                <a href="{{ service.url }}" title="{{ service.service }} Services">
                                     <img src="{{ site.url }}/img/service/{{ service.service | slugify }}.svg" alt="{{ service.title }}" class="img-responsive center-block p-a" style="height: 140px;">
                                     <h2 class="m-y-0">{{ service.service }}</h2>
                                 </a>
                                 <hr>
                                 <p class="text-left">{{ service.description }}</p>
-                                <a href="{{ service.url }}">
+                                <a href="{{ service.url }}" title="Learn more about {{ service.service }} services">
                                     <button type="button" class="btn btn-sm btn-primary-outline">Learn more</button>
                                 </a>
                             </div>

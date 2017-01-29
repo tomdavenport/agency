@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="814px" height="722px" viewBox="0 0 814 722" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Technical SEO</title>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="technical-seo" transform="translate(-65.000000, -1.000000)">
+            <g id="Layer_2" transform="translate(65.000000, 0.000000)">
+                <g id="Group">
+                    <polygon id="Shape" fill="#7B7B7B" points="231.709 116.682 289.916 116.682 289.916 0.269 231.709 58.475"></polygon>
+                    <polygon id="Shape" fill="#7B7B7B" points="586.608 116.682 528.401 116.682 528.401 0.269 586.608 58.475"></polygon>
+                    <rect id="Rectangle-path" fill="#5A5A5A" x="289.916" y="0.269" width="238.485" height="58.207"></rect>
+                    <path d="M813.775,347.891 L813.775,658.323 C813.775,693.895 784.67,723 749.098,723 L65.986,723 C30.414,723 1.309,693.895 1.309,658.323 L1.309,347.891" id="Shape" fill="#E6E7E8"></path>
+                    <polygon id="Shape" fill="#D0D1D2" points="697.769 115.469 114.889 115.469 0.096 227.032 0.096 348.295 812.562 348.295 812.562 227.032"></polygon>
+                    <path d="M719.189,349.508 L719.189,264.221 C719.189,246.435 704.637,231.882 686.85,231.882 L128.233,231.882 C110.447,231.882 95.894,246.434 95.894,264.221 L95.894,349.508" id="Shape" fill="#458CF5"></path>
+                    <circle id="Oval" fill="#E6E7E8" cx="160.973" cy="283.621" r="23.343"></circle>
+                    <circle id="Oval" fill="#E6E7E8" cx="233.326" cy="283.621" r="23.343"></circle>
+                    <rect id="Rectangle-path" fill="#FFFFFF" x="95.894" y="349.508" width="623.295" height="373.492"></rect>
+                    <rect id="Rectangle-path" fill="#D2D3D4" x="137.63" y="674.494" width="268.699" height="48.505"></rect>
+                    <rect id="Rectangle-path" fill="#D2D3D4" x="137.63" y="393.762" width="208.068" height="232.227"></rect>
+                    <polygon id="Shape" fill="#D2D3D4" points="470.801 395.116 621.909 546.224 621.909 418.249 717.979 514.319 717.979 723 588.023 723 454.228 589.205"></polygon>
+                    <path d="M665.227,517.66 C665.227,463.091 633.029,416.067 586.608,394.476 L586.608,522.511 L528.704,555.656 L470.8,522.511 L470.8,395.116 C425.135,416.996 393.596,463.643 393.596,517.661 C393.596,571.679 425.135,618.326 470.8,640.206 L470.8,723 L588.022,723 L588.022,640.206 C633.688,618.325 665.227,571.679 665.227,517.66 Z" id="Shape" fill="#505050"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

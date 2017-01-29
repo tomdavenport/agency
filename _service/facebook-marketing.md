@@ -47,17 +47,19 @@ prices:
 
 ## Master the strategies of successful facebook advertising, and reach thousands of highly targeted prospects on the most powerful new ad platform in the world.
 
+Did you know [1.5 billion people use Facebook *every day?*](http://newsroom.fb.com/company-info/ "Facebook Statistics")
 
-> ### Fact: 1.5 billion people use Facebook *every day*.
-> <p class="small text-muted"><em>Source:<a href="http://newsroom.fb.com/company-info/">Facebook</a></em></p>
+You can reach specific, targeted segments of them in just 10 minutes... and yet, so many businesses ignore social media marketing.
 
-Anyone can access them in just 10 minutes... and yet, so many businesses struggle with social media marketing.
+Some companies who at least try to get involved will just hire lower-level staff to "do social media" - then find they don't have a strategy, and just know some theory by "blogging gurus" instead of experience running successful campaigns.
 
-You probably see companies hire lower-level staff to "do social media" - then find they don't have a strategy, and just know some theory by "blogging gurus" instead of experience running successful campaigns.
+The end result of a poor strategy can be gimmicky, and in-your-face.
 
-The end result of a poor strategy can be gimmicky, and in-your-face. You need to put ads in front of the right people at the right time.
+The trick to successful campaigns with a rock-bottom cost-per-aquisition is to put ads in front of the right people at the right time.
 
-It's no secret how to win at Facebook - thousands of businesses (and soon, your competitors) will be winning at Facebook advertising. You can build your strategy online for guides, but if you can't translate techno-jargon into action, your business will be at a loss and won't know what to do next.
+Thousands of businesses (and soon, your competitors) will be winning at Facebook advertising. You can build your strategy online by reading guides for a few months and testing what works. Just remember, if you try to build Facebook campaigns yourself but can't translate techno-jargon from online guides into action, it could cost you dearly.
+
+Or you can go straight to an expert, who know how to kick start a successful campaign from day one. That's where we come in!
 
 ### Knowing how to make a Facebook ad isn't enough. You need a *strategy.*
 
@@ -67,13 +69,15 @@ The first thing we do is look at whether Facebook advertising is for you.
 
 There's a perception that Facebook is only for consumer-facing B2C companies. It's true that Facebook is *perfect* for reaching consumers. Probably the best platform in the world. Businesses, however, need to ask themselves this question:
 
-***Do you have a clear profile of who your business customers are?***
+## Do you have a clear profile of who your business customers are?
 
 If your customers can be grouped into clear profiles, a Facebook marketing strategy *works*.
 
 You *can* have a powerful presence on social media, because Facebook costs *so little* to advertise. It feels like a golden opportunity in the history of marketing.
 
-## Facebook advertising lets you attract and engage loyal customers by reaching thousands of highly targeted prospects.
+## A Complete Facebook Marketing Solution
+
+ Facebook advertising lets you attract and engage loyal customers by reaching thousands of highly targeted prospects.
 
 Show us what your ideal customers looks like, and we will show you how to get new customers from Facebook and get a great return on your investment.
 
@@ -83,7 +87,7 @@ Your business how to master the new strategies and techniques of successful Face
 2. 'Retarget' the best prospects and convert them on your site
 3. Pinpoint your most profitable audience and scale up.
 
-**The result: Increased web traffic and sales.**
+**The result:** Increased web traffic and sales.
 
 This kind of knowledge could save you a lot of trouble and money.
 
@@ -93,62 +97,39 @@ It's VERY helpful if you:
 - Have a need for online expansion and marketing
 - Want to rapidly grow your business and profits
 
-My ultimate goal is for you to gain dramatically on your investment.
-
-## Your Complete Facebook Marketing Solution
-
-We have real world actual experience with Facebook, producing real results for clients.
+Our ultimate goal is for you to gain dramatically on your investment.
 
 Your investment depends on whether you want *your* team to learn how to manage your Facebook marketing, or whether you want to outsource it all to us for a complete done-for-you solution.
 
-<!--
-
-### Option 1: The Killer Facebook Ad Pack
-
-Download our free ad templates to jumpstart your Facebook marketing experiements.
-
-It contains all the basics on how to make a great advert for Facebook:
-
-- Dozens of ad examples from many industries
-
--->
-
-### Option 1: The Facebook Success Training for Beginners
-
-Learn how to set up highly profitable facebook advertising campaigns in one morning.
-
-We will personally lead you or a team member though the Facebook ad setup step-by-step.
-
-You will learn...
-
-- Essential advice and strategy for businesses on Facebook
-- How to target your ideal customers
-- What kind of ads you might want to buy
-- How much money you should spend
-- How to find and create the perfect image for your ad
-- The best types of content to share
-
-### Option 2: Complete Facebook Marketing Solution
-
-A complete done-for-you solution. I'll set everything up, and manage the account to get the best results possible from your campaign.
-
-This is a service that could otherwise take you years to figure out for yourself.
-
 ## Why Digital Marketing Specialist?
 
-Every meeting will be easy, conversational and to the point. we don't bombard you with technical jargon.
+We have real world actual experience with Facebook, producing real results for clients.
 
-In just one week from now, your Facebook campaign could be live, bringing you  leads and sales. Imagine getting notifications on your phone, showing new leads that have arrived overnight. 
+### World-class Facebook Experts
+
+We work with the biggest names in the following UK sectors:
+
+- Number 1 pop artists
+- Luxury travel
+- Elderly care
+- Consumer technology
+- International finance
+
+We can bring this world-class experience to your business, whatever your size or background.
+
+Here's a selection of our [5-star reviews](http://www.digitalmarketingspecialist.co.uk/reviews/ "Digital Marketing Specialist Reviews"). Our customers trust us to look after their digital marketing because we deliver measurable results that give them a great ROI - and you can join them.
+
+### Easy-going meetings with a straight-talking expert
+
+Every meeting will be easy, conversational and to the point. We don't bombard you with technical jargon, and we focus on the facts. You see the metrics that matter most to your goals, and we tell you how we're going to move them the right way. That's our measure of success, period.
+
+We live to move quickly too. It could be just one week from now that your Facebook campaign is be live, bringing you leads and sales right out the gate. Imagine getting notifications on your phone, on our automated reporting platform, showing you that new leads that have arrived overnight.
 
 What a great way to start the day - new clients, a growing business, and comfort that all of it is happening automatically.
 
-### Trusted by companies just like yours
-
-Look at our [5-star reviews](http://www.digitalmarketingspecialist.co.uk/reviews/ "Digital Marketing Specialist Reviews"). our customers trust us to look after their digital marketing because we deliver measurable results that give them a great ROWe - and you can join them.
-
 ### We have limited space...
 
-Make sure you contact us today. We do have limited space, as we devote so much time to crafting and managing first-class campaigns for clients.
+Make sure you contact us today. We do have limited space, and work with businesses on a first-come, first-serve basis. We also don't work with direct competitors in your region, so make sure to contact us before a competitor so we can guarantee your service.
 
 You could miss out on a world of online growth for your business, and all the profits it delivers other businesses.
 

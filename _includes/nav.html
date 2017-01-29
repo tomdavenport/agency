@@ -8,9 +8,9 @@
         {% if page.url contains 'reviews' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
         </li>
-        <!-- {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
-            <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
-        </li> -->
+        {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/services/" title="Digital Marketing Services">What We Do</a>
+        </li>
         {% if page.url contains 'case-study' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/case-study/" title="Digital Marketing Case Studies">Case Studies</a>
         </li>
@@ -50,7 +50,7 @@
                     <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
                     </li>
                     {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
+                        <a href="{{site.url}}/services/" title="Digital Marketing Services">What We Do</a>
                     </li>
                     {% if page.url contains 'case-study' %}<li class="active">{% else %}<li>{% endif %}
                         <a href="{{site.url}}/case-study/" title="Digital Marketing Case Studies">Case Studies</a>

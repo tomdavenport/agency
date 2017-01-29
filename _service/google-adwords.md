@@ -65,13 +65,3 @@ We show results in context of your other traffic data, by connecting your Google
 
 ### You own everything
 Your Adwords account is your business asset. You are granting us access to your property, and you are free to take that honor away. Our goal is to delight you for a lasting business relationship.
-
-## Q: How do I buy?
-
-### Simple payment model
-We offer a straightforward fixed fee for trial campaigns.
-
-- System Setup: £250 + VAT
-- Monthly Management: £250/month
-
-As you grow, expand with new campaigns for your services and products starting at £99 per campaign. All prices exclude VAT.

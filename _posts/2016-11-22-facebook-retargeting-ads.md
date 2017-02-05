@@ -47,7 +47,7 @@ We could remind people that there are still items in their cart...
 
 The important thing is that we now have a way to reach them, instead of losing them forever. And in turn, we boost the ROI from every other marketing investment.
 
-[Learn about our Facebook marketing services here.](http://www.digitalmarketingspecialist.co.uk/services/facebook-marketing/ "Facebook Marketing Services")
+[Learn about our Facebook marketing services here.](http://www.digitalmarketingspecialist.co.uk/service/facebook-marketing/ "Facebook Marketing Services")
 
 ### Example Facebook Retargeting Ad Funnel
 
@@ -77,4 +77,4 @@ Call us now to discuss how we can get started on your retargeting setup now!
 
 <a href="{{ site.url }}/contact/" title="Contact" role="button" class="btn btn-primary-outline m-b-md btn-lg">Book a free consultation</a>
 
-Or if you want to learn more, read about our [Facebook marketing services](http://www.digitalmarketingspecialist.co.uk/services/facebook-marketing/ "Facebook Marketing Services").
+Or if you want to learn more, read about our [Facebook marketing services](http://www.digitalmarketingspecialist.co.uk/service/facebook-marketing/ "Facebook Marketing Services").

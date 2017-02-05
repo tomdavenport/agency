@@ -1,31 +1,26 @@
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ page.description }}">
-    <meta name="author" content="">
-
-    <!-- Typekit -->
-<script src="https://use.typekit.net/oxr8ulj.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description }}">
+  <meta name="author" content="">
   <title>{{ page.title }}</title>
+<!-- meta robots -->
+  {% if page.noindex %}
+    <meta name="robots" content="noindex" />
+  {% endif %}
+  <link rel="canonical" href="http://www.digitalmarketingspecialist.co.uk{{ page.url }}"/>
 
-  <!-- meta robots -->
- {% if page.noindex %}
-  <meta name="robots" content="noindex" />
- {% endif %}
-
-  <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
 
 <!--       <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'> -->
 <!--       <link href="{{site.url}}/assets/css/toolkit-startup.css" rel="stylesheet">
       <link href="{{site.url}}/assets/css/application-startup.css" rel="stylesheet">
  -->
 
-      <link href="{{ site.url }}/assets/css/application-startup.css" rel="stylesheet">
-      <link href="{{ site.url }}/dist/toolkit-startup.css" rel="stylesheet">
+  <link href="{{ site.url }}/assets/css/application-startup.css" rel="stylesheet">
+  <link href="{{ site.url }}/dist/toolkit-startup.css" rel="stylesheet">
 
 
       <!-- <link href="{{site.url}}/dist/toolkit.min.css" rel="stylesheet"> -->
@@ -36,6 +31,10 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+  <!-- Typekit -->
+<script src="https://use.typekit.net/oxr8ulj.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="{{ page.title }}">
@@ -48,7 +47,7 @@
 <meta name="twitter:creator" content="@{{ site.twitter }}">
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:description" content="{{ page.description }}">
-<meta name="twitter:image" content="{{ site.url }}/img/meta/{{ page.metaimage }}">
+<meta name="twitter:image" content="{{ site.url }}/img/{{ page.metaimage }}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 
 <!-- Open Graph data -->
@@ -56,7 +55,7 @@
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<meta property="og:image" content="{{ site.url }}/img/meta/{{ page.metaimage }}" />
+<meta property="og:image" content="{{ site.url }}/img/{{ page.metaimage }}" />
 <meta property="og:description" content="{{ page.description }}" />
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="article:published_time" content="{{ page.date }}" />

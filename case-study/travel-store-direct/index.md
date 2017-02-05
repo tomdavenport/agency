@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: default
 title: Case Study - Travel Store Direct
 description: How we grew online revenue from an eccomerce store by 6x in just three months, using Google Adwords and Analytics to improve conversion rates by 509%.
 center:

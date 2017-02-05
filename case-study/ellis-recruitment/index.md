@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: default
 title: Case Study - Ellis Recruitment
 description: How we attract regular hot leads for a recruiter, with a digital markering system that is cost-effective and completely hands-free.
 center:

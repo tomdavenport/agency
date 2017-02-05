@@ -38,3 +38,12 @@ include: [.htaccess]
 exclude: [node_modules, docs, .gitignore, Gemfile, Gemfile.lock, gulpfile.js, package.json, npm-debug.log]
 
 timezone: Europe/London
+
+collections:
+  testimonials:
+  certifications:
+  service:
+    layout: service
+    output: true
+    permalink: /service/:path/
+  clients:

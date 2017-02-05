@@ -1,0 +1,18 @@
+<!-- Client banner -->
+<div class="block p-a">
+    <div class="container text-center">
+    	<h6 class="text-muted m-b">TRUSTED BY</h6>
+        {% for clients in site.clients %}
+            {% if clients.bannerBar != false %}
+            	<!-- <a href="{{ site.url }}/case-study/{{ clients.company  | slugify }}"> -->
+            		<img src="{{ site.url }}/img/clients/{{ clients.companyLogo }}" alt="{{ clients.company }} logo" style="height: 70px; width: 150px; -webkit-filter: grayscale(1); /* Older Webkit */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: greyscale(100%); filter: url({{ site.url }}/img/clients/greyscale.svg#greyscale);" class="p-a-0 m-x">
+            	<!-- </a> -->
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

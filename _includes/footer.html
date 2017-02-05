@@ -1,66 +1,64 @@
 <footer>
-<div class="block block-inverse app-footer yellow-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5 m-b-md">
-                <ul class="list-unstyled list-spaced">
-                    <li class="m-b">
-                        <h6 class="text-uppercase">About Digital Marketing Specialist</h6>
-                    </li>
-                    <div itemscope itemtype="http://schema.org/LocalBusiness">
-                        <a itemprop="url" href="http://www.digitalmarketingspecialist.co.uk" title="Digital Marketing Specialist"></a>
-                        <div itemprop="description">
-                            <li>A digital marketing consultancy based in Marlborough, Wiltshire.</li>
+    {% include section/client-banner.html %}
+    <div class="block block-inverse app-footer yellow-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 m-b-md">
+                    <ul class="list-unstyled list-spaced">
+                        <li class="m-b">
+                            <h6 class="text-uppercase">About</h6>
+                        </li>
+                        <div itemscope itemtype="http://schema.org/LocalBusiness">
+                            <a itemprop="url" href="http://www.digitalmarketingspecialist.co.uk" title="Digital Marketing Specialist"></a>
+                            <div itemprop="description">
+                                <li>A digital marketing consultancy based in Marlborough, Wiltshire.</li>
+                                <br>
+                                <li>We build digital marketing systems, increase your conversion rate, and grow your business. <a href="{{ site.url }}/about/">Learn more</a></li>
+                            </div>
                             <br>
-                            <li>We build digital marketing systems, increase your conversion rate, and grow your business.</li>
+                            <div itemprop="name">
+                                <li><strong>Digital Marketing Specialist Ltd</strong></li>
+                            </div>
+                            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <li><span itemprop="streetAddress">Elcot Lane</span>, <span itemprop="addressLocality">Marlborough</span>, <span itemprop="addressRegion">Wiltshire</span> <span itemprop="postalCode">SN8 2AE</span>, <span itemprop="addressCountry">United Kingdom</span></li>
+                                <li>Company No. 9154639</li>
+                            </div>
                         </div>
-                        <br>
-                        <div itemprop="name">
-                            <li><strong>Digital Marketing Specialist Ltd</strong></li>
-                        </div>
-                        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                            <li><span itemprop="streetAddress">Elcot Lane</span>, <span itemprop="addressLocality">Marlborough</span>, <span itemprop="addressRegion">Wiltshire</span> <span itemprop="postalCode">SN8 2AE</span>, <span itemprop="addressCountry">United Kingdom</span></li>
-                        </div>
-                    </div>
-                </ul>
-            </div>
-            <div class="col-sm-2 col-sm-offset-1 m-b-md">
-                <ul class="list-unstyled list-spaced small">
-                    <li class="m-b">
-                        <h6 class="text-uppercase">Services</h6></li>
-                    <!-- <li class="text-muted">About</li> -->
-                    <!-- <li class="text-muted">Legal</li> -->
-                    <li class="text-muted">
-                      <a href="{{ site.url }}/services/facebook-marketing/" title="Facebook Marketing">Facebook Marketing</a>
-                    </li>
-                    <li class="text-muted">
-                      <a href="{{site.url}}/services/adwords-marketing/" title="Adwords Marketing">Google Adwords</a>
-                    </li>
-                    <li class="text-muted">
-                      <a href="{{site.url}}/services/website-analytics/" title="Google Analytics">Website Analytics</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-2 col-sm-offset-1 m-b-md">
-                <ul class="list-unstyled list-spaced small">
-                    <li class="m-b">
-                        <h6 class="text-uppercase">Company</h6></li>
-                    <!-- <li class="text-muted">About</li> -->
-                    <!-- <li class="text-muted">Legal</li> -->
-                    <li class="text-muted"><a href="{{ site.url }}/articles/" title="Digital Marketing Blog">Articles</a></li>
-                    <li class="text-muted">
-                      <a href="{{site.url}}/reviews/" title="Reviews">Reviews</a>
-                    </li>
-                    <li class="text-muted">
-                      <a href="{{site.url}}/case-study/" title="Case Studies">Case Studies</a>
-                    </li>
-                    <li class="text-muted">
-                      <a href="{{ site.url }}/contact/" title="Contact">Contact</a>
-                    </li>
-                    <li class="text-muted"><a href="{{ site.url }}/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <!--
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-sm-offset-1 m-b-md">
+                    <ul class="list-unstyled list-spaced small">
+                        <li class="m-b">
+                            <h6 class="text-uppercase">Services</h6></li>
+                        <!-- <li class="text-muted">About</li> -->
+                        <!-- <li class="text-muted">Legal</li> -->
+                        {% for item in site.service %}
+                        <li class="text-muted">
+                            <a href="{{ site.url }}/service/{{ item.service | slugify }}/" title="{{ item.url }}">{{ item.service }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-sm-offset-1 m-b-md">
+                    <ul class="list-unstyled list-spaced small">
+                        <li class="m-b">
+                            <h6 class="text-uppercase">Company</h6></li>
+                        <!-- <li class="text-muted">About</li> -->
+                        <!-- <li class="text-muted">Legal</li> -->
+                        <li class="text-muted"><a href="{{ site.url }}/articles/" title="Digital Marketing Blog">Articles</a></li>
+                        <li class="text-muted">
+                            <a href="{{site.url}}/reviews/" title="Reviews">Reviews</a>
+                        </li>
+                        <li class="text-muted">
+                            <a href="{{site.url}}/case-study/" title="Case Studies">Case Studies</a>
+                        </li>
+                        <li class="text-muted">
+                            <a href="{{ site.url }}/contact/" title="Contact">Contact</a>
+                        </li>
+                        <li class="text-muted"><a href="{{ site.url }}/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!--
       <div class="col-sm-2 m-b-md">
         <ul class="list-unstyled list-spaced">
           <li class="m-b"><h6 class="text-uppercase">Resources</h6></li>
@@ -78,15 +76,15 @@
           <li class="text-muted">Social</li>
         </ul>
       </div> -->
+            </div>
         </div>
     </div>
-</div>
 </footer>
-
 </div>
 <script src="{{ site.url }}/assets/js/jquery.min.js"></script>
 <script src="{{ site.url }}/assets/js/toolkit.js"></script>
 <script src="{{ site.url }}/assets/js/application.js"></script>
+
 </body>
 
 </html>

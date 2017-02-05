@@ -16,3 +16,15 @@ Redirect 301 /testing-my-new-blog/ http://www.digitalmarketingspecialist.co.uk/a
 Redirect 301 /privacy-policy/privacy-policy.html http://www.digitalmarketingspecialist.co.uk/privacy-policy/
 
 Redirect 301 /articles.html http://www.digitalmarketingspecialist.co.uk/articles/
+
+Redirect 301 /services/website-analytics http://www.digitalmarketingspecialist.co.uk/service/google-analytics/
+
+Redirect 301 /service/adwords-marketing http://www.digitalmarketingspecialist.co.uk/service/google-adwords/
+
+Redirect 301 /services/adwords-marketing http://www.digitalmarketingspecialist.co.uk/service/google-adwords/
+
+Redirect 301 /services/facebook-marketing http://www.digitalmarketingspecialist.co.uk/service/facebook-marketing/
+
+Redirect 301 /services/adwords-marketing/buy/ http://www.digitalmarketingspecialist.co.uk/service/google-adwords/
+
+Redirect 301 /service/google-adwords//buy/ http://www.digitalmarketingspecialist.co.uk/service/google-adwords/

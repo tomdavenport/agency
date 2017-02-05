@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %} {% include nav.html %}
+<div class="block block-inverse text-center">
+    <div class="block-foreground m-t-lg">
+        <h1 class="block-title">{{ page.title }}</h1>
+        <p class="lead text-muted"> {{ page.description }}</p>
+        <button class="btn btn-default btn-outline m-t">With a simple button</button>
+    </div>
+    <div class="block-background">
+        <iframe frameBorder="0" src="https://a.tiles.mapbox.com/v4/jacobthornton.6681fb42/attribution.html?access_token=pk.eyJ1IjoiamFjb2J0aG9ybnRvbiIsImEiOiJlMGRmZmJlNDZkNDhlN2EzMTQ0YWFiNjhlN2RiZWY1ZCJ9.hO-UNIIplnebJYkya-8TEQ"></iframe>
+    </div>
+</div>
+
+<div class="block block-secondary app-iphone-block">
+  <div class="container">
+    <div class="row app-align-center">
+
+<!-- Logo -->
+      <div class="col-sm-5 hidden-xs">
+        <img class="app-iphone" src="{{ site.url }}/img/logo/digital-marketing-specialist-logo.png" style="width: 100%;">
+      </div>
+
+      <div class="col-sm-6 col-sm-offset-1">
+        <h6 class="text-muted text-uppercase">Case Study</h6>
+        <h2 class="m-t-0">Make informed decisions with historical &amp; real time data.</h2>
+        <p class="lead m-b-md">We combine immediate real time events with rich historical data to help answer the toughest questions about retention, growth, and engagement.</p>
+        <div class="row hidden-sm">
+          <div class="col-sm-6 m-b-md">
+            <h3 class="m-y-0">Data frequency</h3>
+            <p>We poll for data on a millisecond basis. You can react to new information in seconds rather than days. <a href="#" class="text-primary">Learn more.</a></p>
+          </div>
+          <div class="col-sm-6">
+            <h3 class="m-y-0">Reliability &amp; uptime</h3>
+            <p>We process our data across a massively distributed network of reliable servers to ensure 99.99% uptime, always. <a href="#" class="text-primary">Learn more</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="block block-bordered text-center">
+  <div class="container-fluid">
+   <blockquote class="pull-quote">
+      <p>
+        “Notice that simple inset border above. Isn't it lovely.”
+      </p>
+      <cite>Mark Otto, Huge Nerd</cite>
+    </blockquote>
+  </div>
+</div>
+
+
+<div class="block block-inverse text-center">
+    <h2 class="block-title">An inverse block</h2>
+    <p class="text-muted lead">Use the inverse modifier for working over dark images.</p>
+    <button class="btn-lg btn-primary btn-dark m-t">Start Now</button>
+</div>
+
+{% include footer.html %}
+

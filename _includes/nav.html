@@ -2,18 +2,15 @@
 <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
     <ul class="nav nav-bordered nav-stacked">
         <li class="nav-header">Navigation</li>
-        <li>
-            <p>testing</p>
-        </li>
         <!-- {% if page.url contains 'free' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/free/" title="Free Digital Marketing Tools">Free Tools</a>
         </li> -->
         {% if page.url contains 'reviews' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
         </li>
-        <!-- {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
-            <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
-        </li> -->
+        {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{site.url}}/services/" title="Digital Marketing Services">What We Do</a>
+        </li>
         {% if page.url contains 'case-study' %}<li class="active">{% else %}<li>{% endif %}
             <a href="{{site.url}}/case-study/" title="Digital Marketing Case Studies">Case Studies</a>
         </li>
@@ -52,15 +49,15 @@
                         {% endif %}
                     <a href="{{site.url}}/reviews/" title="Digital Marketing Reviews">Why Us?</a>
                     </li>
-                    <!-- {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/services/" title="Digital Marketing Services">What we do</a>
-                    </li> -->
-                    {% if page.url contains 'case-study' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/case-study/" title="Digital Marketing Case Studies">Case Studies</a>
+                    {% if page.url contains 'services' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/services/" title="Digital Marketing Services">What We Do</a>
                     </li>
-                    <!-- {% if page.url contains 'articles' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/articles/" title="Digital Marketing Blog">Blog</a>
+                    <!-- {% if page.url contains 'case-study' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/case-study/" title="Digital Marketing Case Studies">Case Studies</a>
                     </li> -->
+                    {% if page.url contains 'articles' %}<li class="active">{% else %}<li>{% endif %}
+                        <a href="{{site.url}}/articles/" title="Digital Marketing Articles">Advice</a>
+                    </li>
                     <!-- <li>
                                 Call <a href="tel:+441793384171" title="Call Digital Marketing Specialist" onClick="ga('send', 'event', 'contact', 'phone');">
                                     <span id="website-phone-number"itemprop="telephone">
@@ -69,13 +66,14 @@
                                 </a>
                         </li> -->
 
-                        {% if page.url contains 'contact' %}<li class="active">{% else %}<li>{% endif %}
-                        <a href="{{site.url}}/contact/" title="Contact">
+                    {% if page.url contains 'contact' %}
+                    <li class="active">{% else %}<li>
+                    {% endif %}
+                        <a href="{{site.url}}/contact/" title="Contact" class="p-y-0">
                             <button class="btn btn-info" style="line-height: 26px; color:#1C2B3A;">Contact</button>
                         </a>
                     </li>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
         </div>
     </nav>

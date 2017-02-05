@@ -1,0 +1,16 @@
+<div class="block grey-background p-y-md">
+    <div class="row text-center">
+        {% for clients in site.clients limit:2 %}
+                <div class="col-sm-6">
+                    <blockquote class="pull-quote">
+                        <img class="img-circle m-b" src="{{ site.url }}/img/clients/{{ clients.headshot }}" alt="{{ clients.name }} portrait">
+                        <img src="{{ site.url }}/img/clients/{{ clients.companyLogo }}" alt="{{ clients.company | capitalize }} logo">
+                        <br>
+                        <p class="m-y">{{ clients.shortQuote }}</p>
+                        {% include snippet/5star.html %}
+                        <cite>{{ clients.name }}, {{ clients.title }}</cite>
+                    </blockquote>
+                </div>
+        {% endfor %}
+    </div>
+

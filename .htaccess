@@ -28,3 +28,9 @@ Redirect 301 /services/facebook-marketing http://www.digitalmarketingspecialist.
 Redirect 301 /services/adwords-marketing/buy/ http://www.digitalmarketingspecialist.co.uk/service/google-adwords/
 
 Redirect 301 /service/google-adwords//buy/ http://www.digitalmarketingspecialist.co.uk/service/google-adwords/
+
+Redirect 302 /signup http://www.digitalmarketingspecialist.co.uk/
+
+Redirect 301 /mobile/ http://www.digitalmarketingspecialist.co.uk/
+
+Redirect 301 /m/ http://www.digitalmarketingspecialist.co.uk/
